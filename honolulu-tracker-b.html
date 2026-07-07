@@ -156,6 +156,9 @@
   .week.cutback::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:9px;background:var(--recover)}
   .week.summit{border-color:var(--sun)}
   .week.summit::before{content:"";position:absolute;left:0;top:12px;bottom:12px;width:3px;border-radius:9px;background:linear-gradient(180deg,var(--sun),var(--coral))}
+  .week.cross{background:linear-gradient(180deg,#0e2321,#0c1727)}
+  .week.cross::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:9px;background:var(--recover)}
+  .week.rtr::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:9px;background:linear-gradient(180deg,var(--recover),var(--sun))}
   .wnum{font-family:"Space Mono",monospace;font-weight:700;font-size:22px;color:var(--text);text-align:center}
   .wnum small{display:block;font-size:10px;color:var(--muted);font-weight:400;letter-spacing:.05em;margin-top:3px}
   .wbody{min-width:0}
@@ -170,7 +173,24 @@
   .tag.cut{color:var(--recover);border-color:#235b56}
   .tag.taper{color:#c0a3e0;border-color:#46376b}
   .tag.summit{color:#0a1430;background:linear-gradient(90deg,var(--sun),var(--coral));border:none;font-weight:700}
+  .tag.cross{color:var(--recover);border-color:#235b56}
+  .tag.rtr{color:#8fd0c9;border-color:#235b56}
   .mpnote{font-size:12px;color:var(--sun);margin:0 0 11px;display:flex;gap:7px;align-items:center}
+  .xnote{font-size:12px;color:var(--recover);margin:0 0 11px;display:flex;gap:7px;align-items:flex-start;line-height:1.45}
+  .xnote .xicon{flex:none}
+
+  /* injury / revision banner */
+  .injury{
+    margin:20px 0 4px;border:1px solid #235b56;border-left:3px solid var(--recover);
+    border-radius:14px;background:linear-gradient(180deg,#0e2321,#0c1b2f);
+    padding:15px 18px;
+  }
+  .injury .it{
+    font-family:"Space Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--recover);margin:0 0 6px;display:flex;gap:8px;align-items:center;
+  }
+  .injury p{margin:0;color:var(--mist);font-size:13px;line-height:1.55}
+  .injury b{color:var(--text);font-weight:600}
 
   .pills{display:flex;gap:9px;flex-wrap:wrap}
   .pill{
@@ -190,6 +210,10 @@
   .pill.done .dt{color:#5a2c10}
   .pill.sat{min-width:104px;border-color:#3a568c}
   .pill.sat .m{font-size:19px}
+  .pill.row{border-color:#235b56;background:#0e2321}
+  .pill.row:hover{border-color:var(--recover)}
+  .pill.row .km{color:var(--recover)}
+  .pill.row.done .km{color:#5a2c10}
   .pill .check{position:absolute;top:8px;right:9px;opacity:0;transition:.2s;color:#0a1430;font-size:11px;font-weight:800}
   .pill.done{
     background:linear-gradient(135deg,var(--good1),var(--good2));
@@ -280,7 +304,12 @@
   <header>
     <p class="eyebrow">JAL Honolulu Marathon · 13 Dec 2026 · 5 AM start</p>
     <h1><span class="monogram" aria-hidden="true">B</span>Road to<br>Honolulu</h1>
-    <p class="tagline">Effort over pace. Walk breaks welcome. The long run builds everything else — tap each run as you bank it.</p>
+    <p class="tagline">Effort over pace. Walk breaks welcome. The long run builds everything else — tap each session as you bank it.</p>
+
+    <div class="injury">
+      <p class="it">🚣 Knee revision · July 2026</p>
+      <p>PT called for a <b>one-month pause from running (Weeks 4–7, Jul 11–Aug 1)</b> to build leg strength. Those weeks are now <b>easy rowing</b> — same duration and effort (HR 140–150) as the run each replaces, long row Saturdays, <b>PT leg-strength daily</b>. Weeks 8–10 are a <b>walk/run return-to-run ramp</b>, then the build resumes to an <b>18 mi</b> summit. The knee gates the ramp — if it flares, ease off and check with the PT.</p>
+    </div>
 
     <div class="guide">
       <span class="hr">Effort: <b>140–150</b> easy · <b>148–158</b> race <small>bpm (max ~185)</small></span>
@@ -296,7 +325,7 @@
         <div class="lbl">days to the start line</div>
       </div>
       <div class="stats">
-        <div class="stat"><div class="v" id="s-weeks">0<small>/26</small></div><div class="k">Long runs</div></div>
+        <div class="stat"><div class="v" id="s-weeks">0<small>/22</small></div><div class="k">Long runs</div></div>
         <div class="stat"><div class="v" id="s-miles">0<small> mi</small></div><div class="k">Miles logged</div></div>
         <div class="stat"><div class="v" id="s-long">0<small> mi</small></div><div class="k">Longest run</div></div>
         <div class="stat"><div class="v" id="s-pct">0<small>%</small></div><div class="k">Plan complete</div></div>
@@ -308,7 +337,7 @@
     <div class="legend">
       <span><i class="dot lit"></i> long run banked</span>
       <span><i class="dot todo"></i> still to come</span>
-      <span><i class="dot rec"></i> recovery week</span>
+      <span><i class="dot rec"></i> cross-train / recovery</span>
       <span><i class="star">★</i> marathon-effort Wednesday</span>
     </div>
   </header>
@@ -334,7 +363,7 @@
   </div>
 
   <footer>
-    <b>Foot first:</b> this plan assumes your MRI and podiatrist clear the build. If the foot talks back, ease the ramp, cap the long run at 18, and check with them before pushing on. The ★ Wednesdays are optional — drop them whenever you need to.
+    <b>Knee &amp; foot first:</b> this version pauses running for a month (Weeks 4–7) on the PT's call, rebuilds with a walk/run ramp, and caps the long run at 18. If the knee or foot talks back, ease the ramp further and check with the PT/podiatrist before pushing on. The ★ Wednesdays are optional — drop them whenever you need to.
   </footer>
 </div>
 
@@ -343,33 +372,33 @@ const PLAN = [
   {w:1, iso:"2026-06-20", mon:3, wed:4, sat:6,  phase:"base"},
   {w:2, iso:"2026-06-27", mon:3, wed:4, sat:7,  phase:"base"},
   {w:3, iso:"2026-07-04", mon:3, wed:5, sat:8,  phase:"base"},
-  {w:4, iso:"2026-07-11", mon:3, wed:3, sat:6,  phase:"cut"},
-  {w:5, iso:"2026-07-18", mon:3, wed:4, sat:8,  phase:"base"},
-  {w:6, iso:"2026-07-25", mon:3, wed:5, sat:9,  phase:"base"},
-  {w:7, iso:"2026-08-01", mon:4, wed:5, sat:10, phase:"base"},
-  {w:8, iso:"2026-08-08", mon:3, wed:4, sat:7,  phase:"cut"},
-  {w:9, iso:"2026-08-15", mon:4, wed:5, sat:10, phase:"build"},
-  {w:10,iso:"2026-08-22", mon:4, wed:5, sat:11, phase:"build"},
-  {w:11,iso:"2026-08-29", mon:4, wed:6, sat:12, phase:"build"},
-  {w:12,iso:"2026-09-05", mon:3, wed:5, sat:9,  phase:"cut"},
-  {w:13,iso:"2026-09-12", mon:4, wed:6, sat:12, phase:"build", mp:"2 mi at marathon effort — 2 easy / 2 MP / 2 easy"},
-  {w:14,iso:"2026-09-19", mon:4, wed:6, sat:13, phase:"build"},
-  {w:15,iso:"2026-09-26", mon:4, wed:6, sat:14, phase:"build"},
-  {w:16,iso:"2026-10-03", mon:3, wed:5, sat:11, phase:"cut"},
-  {w:17,iso:"2026-10-10", mon:4, wed:6, sat:14, phase:"peak"},
-  {w:18,iso:"2026-10-17", mon:4, wed:6, sat:15, phase:"peak", mp:"3 mi at marathon effort — 1.5 easy / 3 MP / 1.5 easy"},
-  {w:19,iso:"2026-10-24", mon:4, wed:6, sat:16, phase:"peak"},
-  {w:20,iso:"2026-10-31", mon:3, wed:5, sat:13, phase:"cut"},
-  {w:21,iso:"2026-11-07", mon:4, wed:6, sat:16, phase:"peak", mp:"4 mi at marathon effort — 1 easy / 4 MP / 1 easy"},
-  {w:22,iso:"2026-11-14", mon:4, wed:6, sat:18, phase:"peak"},
-  {w:23,iso:"2026-11-21", mon:4, wed:5, sat:20, phase:"summit"},
+  {w:4, iso:"2026-07-11", row:true, mon:35, wed:35, sat:50, phase:"cross"},
+  {w:5, iso:"2026-07-18", row:true, mon:35, wed:45, sat:60, phase:"cross"},
+  {w:6, iso:"2026-07-25", row:true, mon:40, wed:50, sat:65, phase:"cross"},
+  {w:7, iso:"2026-08-01", row:true, mon:40, wed:50, sat:70, phase:"cross"},
+  {w:8, iso:"2026-08-08", rtr:true, mon:2, wed:2, sat:3,  phase:"rtr", rows:[{day:"tue",min:40},{day:"thu",min:40}], note:"Run days: run 1′ / walk 2′."},
+  {w:9, iso:"2026-08-15", rtr:true, mon:3, wed:3, sat:5,  phase:"rtr", rows:[{day:"tue",min:35},{day:"thu",min:30}], note:"Run days: run 2′ / walk 1′."},
+  {w:10,iso:"2026-08-22", rtr:true, mon:3, wed:4, sat:7,  phase:"rtr", rows:[{day:"tue",min:30}], note:"Run days: back to your usual run 4′ / walk 1′."},
+  {w:11,iso:"2026-08-29", mon:4, wed:5, sat:9,  phase:"build"},
+  {w:12,iso:"2026-09-05", mon:4, wed:5, sat:10, phase:"build"},
+  {w:13,iso:"2026-09-12", mon:4, wed:6, sat:12, phase:"build"},
+  {w:14,iso:"2026-09-19", mon:3, wed:5, sat:8,  phase:"cut"},
+  {w:15,iso:"2026-09-26", mon:4, wed:6, sat:12, phase:"build"},
+  {w:16,iso:"2026-10-03", mon:4, wed:6, sat:14, phase:"build"},
+  {w:17,iso:"2026-10-10", mon:4, wed:6, sat:15, phase:"build", mp:"2 mi at marathon effort — 2 easy / 2 MP / 2 easy"},
+  {w:18,iso:"2026-10-17", mon:3, wed:5, sat:11, phase:"cut"},
+  {w:19,iso:"2026-10-24", mon:4, wed:6, sat:15, phase:"peak"},
+  {w:20,iso:"2026-10-31", mon:4, wed:6, sat:16, phase:"peak", mp:"3 mi at marathon effort — 1.5 easy / 3 MP / 1.5 easy"},
+  {w:21,iso:"2026-11-07", mon:3, wed:5, sat:12, phase:"cut"},
+  {w:22,iso:"2026-11-14", mon:4, wed:6, sat:17, phase:"peak", mp:"4 mi at marathon effort — 1 easy / 4 MP / 1 easy"},
+  {w:23,iso:"2026-11-21", mon:4, wed:5, sat:18, phase:"summit"},
   {w:24,iso:"2026-11-28", mon:3, wed:5, sat:13, phase:"taper"},
   {w:25,iso:"2026-12-05", mon:3, wed:4, sat:9,  phase:"taper"},
   {w:26,iso:"2026-12-12", mon:3, wed:3, sat:4,  phase:"taper", shake:true},
 ];
 const RACE_MILES = 26.2;
-const PHASE_LABEL = {base:"Base",build:"Build",peak:"Peak build",cut:"Recovery",taper:"Taper",summit:"Summit"};
-const PHASE_CLASS = {base:"base",build:"build",peak:"peak",cut:"cut",taper:"taper",summit:"summit"};
+const PHASE_LABEL = {base:"Base",build:"Build",peak:"Peak build",cut:"Recovery",taper:"Taper",summit:"Summit",cross:"Cross-train",rtr:"Return to run"};
+const PHASE_CLASS = {base:"base",build:"build",peak:"peak",cut:"cut",taper:"taper",summit:"summit",cross:"cross",rtr:"rtr"};
 
 // ---- persistent state ----
 const KEY = "honolulu-progress-v1";
@@ -397,14 +426,25 @@ async function saveState(){
 }
 
 // ---- miles lookup ----
+// Rowing weeks store minutes, not miles — they count as sessions but add 0 to mileage.
 const MILES = {};
-PLAN.forEach(p=>{ MILES[p.w+"-mon"]=p.mon; MILES[p.w+"-wed"]=p.wed; MILES[p.w+"-sat"]=p.sat; });
+const SESSIONS = new Set();
+PLAN.forEach(p=>{
+  ["mon","wed","sat"].forEach(day=>{
+    const k=p.w+"-"+day;
+    SESSIONS.add(k);
+    if(!p.row) MILES[k]=p[day];
+  });
+  (p.rows||[]).forEach(r=>{ SESSIONS.add(p.w+"-"+r.day); });  // extra cross-train rows (no miles)
+});
 MILES["race"]=RACE_MILES;
-const TOTAL_SESSIONS = PLAN.length*3 + 1;
+SESSIONS.add("race");
+const RUN_LONGS = PLAN.filter(p=>!p.row).length;   // Saturdays that are actual runs
+const TOTAL_SESSIONS = SESSIONS.size;              // includes extra rowing days
 const TOTAL_MILES = Object.values(MILES).reduce((a,b)=>a+b,0);
 
 // each row's iso is the Saturday long run; Mon and Wed fall earlier that week
-const DAY_OFFSET = {mon:-5, wed:-3, sat:0};
+const DAY_OFFSET = {mon:-5, tue:-4, wed:-3, thu:-2, sat:0};
 function dayDate(iso, day){
   const d = new Date(iso+"T12:00:00");
   d.setDate(d.getDate()+DAY_OFFSET[day]);
@@ -426,7 +466,8 @@ function setCountdown(){
 
 // ---- build hero ridge ----
 function buildRidge(){
-  const bars = PLAN.map(p=>({key:p.w+"-sat", mi:p.sat, phase:p.phase, w:p.w}));
+  // rowing weeks store minutes, not miles — give them a short, distinct cross-train bar
+  const bars = PLAN.map(p=>({key:p.w+"-sat", mi:p.row?4:p.sat, phase:p.phase, w:p.w, row:!!p.row}));
   bars.push({key:"race", mi:RACE_MILES, phase:"race", w:"R"});
   const W=1040, H=250, padB=42, padT=26;
   const n=bars.length, slot=(W-20)/n, bw=Math.min(24, slot*0.62);
@@ -437,8 +478,8 @@ function buildRidge(){
     const h = Math.max(6,((b.mi/maxMi)*(H-padB-padT)));
     const y = H-padB-h;
     const done = !!state[b.key];
-    const fill = done ? "url(#lit)" : (b.phase==="race" ? "url(#raceTodo)" : "#243a66");
-    const op = done?1:(b.phase==="cut"?.55:.8);
+    const fill = done ? "url(#lit)" : (b.row ? "var(--recover)" : (b.phase==="race" ? "url(#raceTodo)" : "#243a66"));
+    const op = done?1:(b.row?.5:(b.phase==="cut"?.55:.8));
     rects += `<rect class="bar" data-key="${b.key}" x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" rx="3" fill="${fill}" opacity="${op}"/>`;
     if(b.phase==="race"){
       rects += `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" rx="3" fill="none" stroke="var(--sun)" stroke-width="1.4" opacity="${done?0:.9}"/>`;
@@ -488,10 +529,12 @@ function buildWeeks(){
   host.innerHTML="";
   PLAN.forEach(p=>{
     const el=document.createElement("div");
-    el.className="week "+(p.phase==="cut"?"cutback ":"")+(p.phase==="summit"?"summit ":"")+(p.w===currentW?"now":"");
+    el.className="week "+(p.phase==="cut"?"cutback ":"")+(p.phase==="summit"?"summit ":"")+(p.phase==="cross"?"cross ":"")+(p.phase==="rtr"?"rtr ":"")+(p.w===currentW?"now":"");
     const tagClass = PHASE_CLASS[p.phase]||"base";
     const tagText = p.phase==="summit"?"Summit · longest run":PHASE_LABEL[p.phase];
     const nowBadge = p.w===currentW?`<span class="tag" style="color:var(--sun);border-color:var(--sun)">This week</span>`:"";
+    const satLabel = p.shake ? "Sat · shakeout" : (p.row ? "Sat · long row" : "Sat · long");
+    const noteIcon = p.row ? "🚣" : (p.rtr ? "↩" : "");
     el.innerHTML=`
       <div class="wnum">${p.w}<small>${dayDate(p.iso,"mon")}</small></div>
       <div class="wbody">
@@ -499,10 +542,9 @@ function buildWeeks(){
           <span class="tag ${tagClass}">${tagText}</span>${nowBadge}
         </div>
         ${p.mp?`<p class="mpnote"><span class="star">★</span> ${p.mp}</p>`:""}
+        ${p.note?`<p class="xnote"><span class="xicon">${noteIcon}</span> ${p.note}</p>`:""}
         <div class="pills">
-          ${pill(p.w,"mon","Mon",p.mon,false,false,p.iso)}
-          ${pill(p.w,"wed","Wed",p.wed,!!p.mp,false,p.iso)}
-          ${pill(p.w,"sat",p.shake?"Sat · shakeout":"Sat · long",p.sat,false,true,p.iso)}
+          ${weekPills(p,satLabel)}
         </div>
       </div>`;
     host.appendChild(el);
@@ -512,12 +554,30 @@ function buildWeeks(){
     btn.addEventListener("keydown",e=>{if(e.key===" "||e.key==="Enter"){e.preventDefault();toggle(btn.dataset.id,btn);}});
   });
 }
-function pill(w,day,label,mi,star,sat,iso){
+const ROW_LABEL={tue:"Tue",thu:"Thu"};
+function weekPills(p,satLabel){
+  const rowByDay={}; (p.rows||[]).forEach(r=>rowByDay[r.day]=r);
+  const order=["mon","tue","wed","thu","sat"];
+  return order.map(day=>{
+    if(day==="mon") return pill(p.w,"mon","Mon",p.mon,false,false,p.iso,p);
+    if(day==="wed") return pill(p.w,"wed","Wed",p.wed,!!p.mp,false,p.iso,p);
+    if(day==="sat") return pill(p.w,"sat",satLabel,p.sat,false,true,p.iso,p);
+    const r=rowByDay[day];
+    return r ? pill(p.w,day,ROW_LABEL[day],r.min,false,false,p.iso,p,"row") : "";
+  }).join("");
+}
+function pill(w,day,label,val,star,sat,iso,p,kind){
   const id=w+"-"+day;
   const done=!!state[id];
-  return `<button class="pill ${sat?"sat":""} ${done?"done":""}" data-id="${id}" role="checkbox" aria-checked="${done}" tabindex="0" aria-label="${label}, ${mi} miles, ${dayDate(iso,day)}">
-    <span class="d">${label}</span><span class="m">${mi} mi</span>
-    <span class="km">${km(mi)} km</span>
+  const row = kind ? kind==="row" : !!(p&&p.row);
+  const rtr = !row && !!(p&&p.rtr);
+  const main = row ? `${val} min` : `${val} mi`;
+  const sub  = row ? "row" : (rtr ? "run/walk" : `${km(val)} km`);
+  const aria = row ? `${label}, ${val} minute row, ${dayDate(iso,day)}`
+                   : `${label}, ${val} miles${rtr?" run/walk":""}, ${dayDate(iso,day)}`;
+  return `<button class="pill ${sat?"sat":""} ${row?"row":""} ${rtr?"rtr":""} ${done?"done":""}" data-id="${id}" role="checkbox" aria-checked="${done}" tabindex="0" aria-label="${aria}">
+    <span class="d">${label}</span><span class="m">${main}</span>
+    <span class="km">${sub}</span>
     <span class="dt">${dayDate(iso,day)}</span>
     <span class="check">✓</span>${star?'<span class="star">★</span>':""}
   </button>`;
@@ -535,9 +595,9 @@ function toggle(id, btn){
 function updateStats(){
   let done=0, miles=0, longest=0;
   for(const k in state){ if(state[k]){ done++; miles+=MILES[k]||0; if(/-sat$/.test(k)||k==="race"){ if((MILES[k]||0)>longest) longest=MILES[k]; } } }
-  const satDone = PLAN.filter(p=>state[p.w+"-sat"]).length;
+  const satDone = PLAN.filter(p=>!p.row && state[p.w+"-sat"]).length;
   const pct=Math.round((done/TOTAL_SESSIONS)*100);
-  document.getElementById("s-weeks").innerHTML=`${satDone}<small>/26</small>`;
+  document.getElementById("s-weeks").innerHTML=`${satDone}<small>/${RUN_LONGS}</small>`;
   document.getElementById("s-miles").innerHTML=`${Math.round(miles)}<small> mi · ${Math.round(miles*1.60934)} km</small>`;
   document.getElementById("s-long").innerHTML=`${longest%1?longest:Math.round(longest)}<small> mi · ${km(longest)} km</small>`;
   document.getElementById("s-pct").innerHTML=`${pct}<small>%</small>`;
@@ -597,7 +657,7 @@ importFile.addEventListener("change",e=>{
       const incoming=(data&&data.state)?data.state:data;
       if(!incoming||typeof incoming!=="object"||Array.isArray(incoming)) throw new Error("shape");
       const clean={};
-      Object.keys(incoming).forEach(k=>{ if(incoming[k] && MILES[k]!==undefined) clean[k]=true; });
+      Object.keys(incoming).forEach(k=>{ if(incoming[k] && SESSIONS.has(k)) clean[k]=true; });
       state=clean; saveState();
       buildWeeks(); updateStats(); buildRidge(); syncRace();
       showToast("Imported ✓");
