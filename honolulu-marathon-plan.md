@@ -12,7 +12,8 @@
 Brandon's knee flared, and the physical therapist called for **a one-month pause from running (Jul 11 – Aug 1) to build leg strength**, with rowing or biking for cardio. This version of the plan reflects that:
 
 - **Weeks 4–7 are a rowing block** — no running. Each row **matches the duration and easy effort (HR 140–150) of the run it replaces**, so the aerobic engine is maintained. PT leg-strength work is **daily**.
-- **Weeks 8–10 are a walk/run return-to-run ramp**, rebuilding impact tolerance gradually while easy rows hold the aerobic base.
+- **Weeks 8–10 are a walk/run return-to-run ramp**, rebuilding impact tolerance gradually while easy cross-training holds the aerobic base.
+- **An indoor bike joins as the primary cross-training** (arriving late July / early August). Every cross-training session is an **easy spin at HR 140–150** — bike-led, with rowing as an anytime substitute, and rowing carries the load until the bike arrives. From **Week 11 on, a Tuesday spin stays in** as low-impact complement volume all the way to the race.
 - **The long run now peaks at 18 miles** (Nov 21) instead of 20 — lower joint stress, and plenty for a no-clock finish.
 - **The knee gates the ramp.** If pain returns, back off and check with the PT before pushing on.
 
@@ -36,7 +37,7 @@ Good news: rowing preserves almost all of your aerobic fitness. The only thing a
 
 ## The schedule
 
-Weeks 1–3 are running (already done). Weeks 4–7 are **rowing** (minutes, not miles). Weeks 8–10 are **walk/run**. Mon/Wed = easy support; Sat = long session.
+Weeks 1–3 are running (already done). Weeks 4–7 are **rowing** (minutes, not miles). Weeks 8–10 are **walk/run**. Mon/Wed = easy support; Sat = long session. Cross-training (an easy Tue/Thu bike spin from Week 8 on) sits off this table — see the tracker and "The other days" below.
 
 | Week | Saturday | Mon | Wed | **Sat (long)** | Phase |
 |------|----------|-----|-----|------------|-------|
@@ -80,7 +81,7 @@ The idea, in your words: **same duration and heart-rate target, rowing instead o
 - **Duration:** matches the equivalent run's time on feet. Mon/Wed are short (35–50 min); Saturday is your "long row," building **50 → 70 min** over the four weeks. The long row is capped near 70 min on purpose — you don't need to match a 90-minute run on the erg to hold aerobic fitness, and the seat/back thank you for it.
 - **No ratio to hit — just steady easy effort.** Don't replicate the 4:1 run/walk on the rower. Your walk breaks are a *running* tool (they manage impact and heat and rehearse race day); the erg has no impact and isn't race-specific, so simply row steadily in the 140–150 zone for the whole session. If a long row gets monotonous, an occasional easy paddle is fine — but it's optional. The only target is time in the HR zone. You'll get real run/walk practice back in Weeks 8–10.
 - **PT leg-strength: every day.** This is the whole point of the pause — the strength work is the priority, the rows keep the engine warm.
-- **Bike swap:** if the knee prefers cycling on a given day, swap a row for an equal-duration easy spin. Rowing stays the default.
+- **Bike swap:** an indoor bike is arriving around the end of this block. Once it's here, an equal-duration easy spin (same HR 140–150) can take any row's place — going forward the bike is the default cross-training, with rowing as the backup. Until it arrives, rowing carries the block.
 
 By the end of Week 7 you'll have held nearly all of your aerobic fitness with zero running impact — the ideal setup to start running again.
 
@@ -90,9 +91,9 @@ By the end of Week 7 you'll have held nearly all of your aerobic fitness with ze
 
 The engine is fine; the tissues need to relearn running. So we ramp with walk/run:
 
-- **Week 8:** run **1 min / walk 2 min**, short. ~2 mi feel on Mon/Wed, ~3 mi Saturday. Keep 1–2 easy 30–40 min rows on off-days to hold aerobic volume.
-- **Week 9:** run **2 min / walk 1 min**, a little longer. Still rowing on off-days.
-- **Week 10:** back to your usual **run 4′ / walk 1′** ratio (the same one you'll use every run and on race day), with a normal Saturday long run (~7 mi). Rowing tapers off to one session as running volume returns.
+- **Week 8:** run **1 min / walk 2 min**, short. ~2 mi feel on Mon/Wed, ~3 mi Saturday. Two easy 40 min spins (Tue/Thu) on the bike hold aerobic volume while running is minimal.
+- **Week 9:** run **2 min / walk 1 min**, a little longer. Two easy spins (Tue 35 / Thu 30 min), tapering as running grows.
+- **Week 10:** back to your usual **run 4′ / walk 1′** ratio (the same one you'll use every run and on race day), with a normal Saturday long run (~7 mi). One easy Tue spin (30 min) — cross-training settles into its ongoing rhythm.
 
 **The knee gates this.** Any sharp or lingering knee pain → stop, ice, and check with the PT before continuing the ramp. There is no rush; the race has no clock.
 
@@ -121,7 +122,8 @@ Run the effort stretch using your race-day run/walk ratio — that makes it the 
 ## The other days
 
 - **PT leg-strength: daily** through the rowing block, then keep it going 2–3×/week once you're running again — it's what protects the knee for the rest of the build.
-- **Tue / Thu:** during the rowing block these are strength + optional easy rows/bike; once running, keep any cross-training genuinely *easy* so it doesn't eat into run recovery.
+- **Tuesday spin:** from Week 11 on, one **easy 30–40 min bike** (HR 140–150) is the ongoing complement — low-impact aerobic volume that spares the knee. Keep it genuinely easy so it doesn't eat into run recovery; drop it whenever you're tired or the long run needs the freshness.
+- **Thu / other days:** strength, yoga, or an optional second easy spin — your call, kept light.
 - **Friday:** rest or light yoga before Saturday's long session. Going in fresh matters more than an extra workout.
 - Skip or shorten cross-training the day before any long run from October on.
 

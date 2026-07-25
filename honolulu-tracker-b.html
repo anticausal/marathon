@@ -307,8 +307,8 @@
     <p class="tagline">Effort over pace. Walk breaks welcome. The long run builds everything else — tap each session as you bank it.</p>
 
     <div class="injury">
-      <p class="it">🚣 Knee revision · July 2026</p>
-      <p>PT called for a <b>one-month pause from running (Weeks 4–7, Jul 11–Aug 1)</b> to build leg strength. Those weeks are now <b>easy rowing</b> — same duration and effort (HR 140–150) as the run each replaces, long row Saturdays, <b>PT leg-strength daily</b>. Weeks 8–10 are a <b>walk/run return-to-run ramp</b>, then the build resumes to an <b>18 mi</b> summit. The knee gates the ramp — if it flares, ease off and check with the PT.</p>
+      <p class="it">🚴 Knee revision · cross-training · updated Jul 2026</p>
+      <p>PT called for a <b>one-month pause from running (Weeks 4–7, Jul 11–Aug 1)</b> to build leg strength — those weeks are <b>easy rowing</b> at HR 140–150 with <b>PT leg-strength daily</b>. Weeks 8–10 are a <b>walk/run return-to-run ramp</b>, then the build resumes to an <b>18 mi</b> summit. An indoor bike now joins as the <b>primary cross-training</b>: all cross-train sessions (teal) are <b>easy spins at HR 140–150</b> — bike-led, but <b>row anytime instead</b>, and keep rowing until the bike arrives. From Week 11 a <b>Tuesday spin</b> stays in as low-impact complement volume. The knee gates the ramp — if it flares, ease off and check with the PT.</p>
     </div>
 
     <div class="guide">
@@ -376,21 +376,21 @@ const PLAN = [
   {w:5, iso:"2026-07-18", row:true, mon:35, wed:45, sat:60, phase:"cross"},
   {w:6, iso:"2026-07-25", row:true, mon:40, wed:50, sat:65, phase:"cross"},
   {w:7, iso:"2026-08-01", row:true, mon:40, wed:50, sat:70, phase:"cross"},
-  {w:8, iso:"2026-08-08", rtr:true, mon:2, wed:2, sat:3,  phase:"rtr", rows:[{day:"tue",min:40},{day:"thu",min:40}], note:"Run days: run 1′ / walk 2′."},
-  {w:9, iso:"2026-08-15", rtr:true, mon:3, wed:3, sat:5,  phase:"rtr", rows:[{day:"tue",min:35},{day:"thu",min:30}], note:"Run days: run 2′ / walk 1′."},
-  {w:10,iso:"2026-08-22", rtr:true, mon:3, wed:4, sat:7,  phase:"rtr", rows:[{day:"tue",min:30}], note:"Run days: back to your usual run 4′ / walk 1′."},
-  {w:11,iso:"2026-08-29", mon:4, wed:5, sat:9,  phase:"build"},
-  {w:12,iso:"2026-09-05", mon:4, wed:5, sat:10, phase:"build"},
-  {w:13,iso:"2026-09-12", mon:4, wed:6, sat:12, phase:"build"},
-  {w:14,iso:"2026-09-19", mon:3, wed:5, sat:8,  phase:"cut"},
-  {w:15,iso:"2026-09-26", mon:4, wed:6, sat:12, phase:"build"},
-  {w:16,iso:"2026-10-03", mon:4, wed:6, sat:14, phase:"build"},
-  {w:17,iso:"2026-10-10", mon:4, wed:6, sat:15, phase:"build", mp:"2 mi at marathon effort — 2 easy / 2 MP / 2 easy"},
-  {w:18,iso:"2026-10-17", mon:3, wed:5, sat:11, phase:"cut"},
-  {w:19,iso:"2026-10-24", mon:4, wed:6, sat:15, phase:"peak"},
-  {w:20,iso:"2026-10-31", mon:4, wed:6, sat:16, phase:"peak", mp:"3 mi at marathon effort — 1.5 easy / 3 MP / 1.5 easy"},
-  {w:21,iso:"2026-11-07", mon:3, wed:5, sat:12, phase:"cut"},
-  {w:22,iso:"2026-11-14", mon:4, wed:6, sat:17, phase:"peak", mp:"4 mi at marathon effort — 1 easy / 4 MP / 1 easy"},
+  {w:8, iso:"2026-08-08", rtr:true, mon:2, wed:2, sat:3,  phase:"rtr", xt:[{day:"tue",min:40,mode:"bike"},{day:"thu",min:40,mode:"bike"}], note:"Run days: run 1′ / walk 2′."},
+  {w:9, iso:"2026-08-15", rtr:true, mon:3, wed:3, sat:5,  phase:"rtr", xt:[{day:"tue",min:35,mode:"bike"},{day:"thu",min:30,mode:"bike"}], note:"Run days: run 2′ / walk 1′."},
+  {w:10,iso:"2026-08-22", rtr:true, mon:3, wed:4, sat:7,  phase:"rtr", xt:[{day:"tue",min:30,mode:"bike"}], note:"Run days: back to your usual run 4′ / walk 1′."},
+  {w:11,iso:"2026-08-29", mon:4, wed:5, sat:9,  phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:12,iso:"2026-09-05", mon:4, wed:5, sat:10, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:13,iso:"2026-09-12", mon:4, wed:6, sat:12, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:14,iso:"2026-09-19", mon:3, wed:5, sat:8,  phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
+  {w:15,iso:"2026-09-26", mon:4, wed:6, sat:12, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:16,iso:"2026-10-03", mon:4, wed:6, sat:14, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:17,iso:"2026-10-10", mon:4, wed:6, sat:15, phase:"build", mp:"2 mi at marathon effort — 2 easy / 2 MP / 2 easy", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:18,iso:"2026-10-17", mon:3, wed:5, sat:11, phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
+  {w:19,iso:"2026-10-24", mon:4, wed:6, sat:15, phase:"peak", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:20,iso:"2026-10-31", mon:4, wed:6, sat:16, phase:"peak", mp:"3 mi at marathon effort — 1.5 easy / 3 MP / 1.5 easy", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:21,iso:"2026-11-07", mon:3, wed:5, sat:12, phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
+  {w:22,iso:"2026-11-14", mon:4, wed:6, sat:17, phase:"peak", mp:"4 mi at marathon effort — 1 easy / 4 MP / 1 easy", xt:[{day:"tue",min:30,mode:"bike"}]},
   {w:23,iso:"2026-11-21", mon:4, wed:5, sat:18, phase:"summit"},
   {w:24,iso:"2026-11-28", mon:3, wed:5, sat:13, phase:"taper"},
   {w:25,iso:"2026-12-05", mon:3, wed:4, sat:9,  phase:"taper"},
@@ -435,7 +435,7 @@ PLAN.forEach(p=>{
     SESSIONS.add(k);
     if(!p.row) MILES[k]=p[day];
   });
-  (p.rows||[]).forEach(r=>{ SESSIONS.add(p.w+"-"+r.day); });  // extra cross-train rows (no miles)
+  (p.xt||[]).forEach(x=>{ SESSIONS.add(p.w+"-"+x.day); });  // cross-train bike/row days (no miles)
 });
 MILES["race"]=RACE_MILES;
 SESSIONS.add("race");
@@ -554,28 +554,31 @@ function buildWeeks(){
     btn.addEventListener("keydown",e=>{if(e.key===" "||e.key==="Enter"){e.preventDefault();toggle(btn.dataset.id,btn);}});
   });
 }
-const ROW_LABEL={tue:"Tue",thu:"Thu"};
+const XT_LABEL={tue:"Tue",thu:"Thu"};
 function weekPills(p,satLabel){
-  const rowByDay={}; (p.rows||[]).forEach(r=>rowByDay[r.day]=r);
+  const xtByDay={}; (p.xt||[]).forEach(x=>xtByDay[x.day]=x);
   const order=["mon","tue","wed","thu","sat"];
   return order.map(day=>{
     if(day==="mon") return pill(p.w,"mon","Mon",p.mon,false,false,p.iso,p);
     if(day==="wed") return pill(p.w,"wed","Wed",p.wed,!!p.mp,false,p.iso,p);
     if(day==="sat") return pill(p.w,"sat",satLabel,p.sat,false,true,p.iso,p);
-    const r=rowByDay[day];
-    return r ? pill(p.w,day,ROW_LABEL[day],r.min,false,false,p.iso,p,"row") : "";
+    const x=xtByDay[day];
+    return x ? pill(p.w,day,XT_LABEL[day],x.min,false,false,p.iso,p,x.mode||"row") : "";
   }).join("");
 }
 function pill(w,day,label,val,star,sat,iso,p,kind){
   const id=w+"-"+day;
   const done=!!state[id];
-  const row = kind ? kind==="row" : !!(p&&p.row);
-  const rtr = !row && !!(p&&p.rtr);
-  const main = row ? `${val} min` : `${val} mi`;
-  const sub  = row ? "row" : (rtr ? "run/walk" : `${km(val)} km`);
-  const aria = row ? `${label}, ${val} minute row, ${dayDate(iso,day)}`
-                   : `${label}, ${val} miles${rtr?" run/walk":""}, ${dayDate(iso,day)}`;
-  return `<button class="pill ${sat?"sat":""} ${row?"row":""} ${rtr?"rtr":""} ${done?"done":""}" data-id="${id}" role="checkbox" aria-checked="${done}" tabindex="0" aria-label="${aria}">
+  const cross = kind==="bike"||kind==="row";        // Tue/Thu cross-train pill
+  const blockRow = !cross && !!(p&&p.row);           // rowing-block main day (minutes)
+  const teal = cross || blockRow;                    // teal styling for any cross-train
+  const rtr = !teal && !!(p&&p.rtr);                 // return-to-run running day
+  const xword = kind==="bike" ? "ride" : "row";
+  const main = teal ? `${val} min` : `${val} mi`;
+  const sub  = cross ? xword : (blockRow ? "row" : (rtr ? "run/walk" : `${km(val)} km`));
+  const aria = teal ? `${label}, ${val} minute ${cross?xword:"row"}, ${dayDate(iso,day)}`
+                    : `${label}, ${val} miles${rtr?" run/walk":""}, ${dayDate(iso,day)}`;
+  return `<button class="pill ${sat?"sat":""} ${teal?"row":""} ${kind==="bike"?"bike":""} ${rtr?"rtr":""} ${done?"done":""}" data-id="${id}" role="checkbox" aria-checked="${done}" tabindex="0" aria-label="${aria}">
     <span class="d">${label}</span><span class="m">${main}</span>
     <span class="km">${sub}</span>
     <span class="dt">${dayDate(iso,day)}</span>
