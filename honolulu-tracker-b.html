@@ -307,8 +307,8 @@
     <p class="tagline">Effort over pace. Walk breaks welcome. The long run builds everything else — tap each session as you bank it.</p>
 
     <div class="injury">
-      <p class="it">🚴 Knee revision · cross-training · updated Jul 2026</p>
-      <p>PT called for a <b>one-month pause from running (Weeks 4–7, Jul 11–Aug 1)</b> to build leg strength — those weeks are <b>easy rowing</b> at HR 140–150 with <b>PT leg-strength daily</b>. Weeks 8–10 are a <b>walk/run return-to-run ramp</b>, then the build resumes to an <b>18 mi</b> summit. An indoor bike now joins as the <b>primary cross-training</b>: all cross-train sessions (teal) are <b>easy spins at HR 140–150</b> — bike-led, but <b>row anytime instead</b>, and keep rowing until the bike arrives. From Week 11 a <b>Tuesday spin</b> stays in as low-impact complement volume. The knee gates the ramp — if it flares, ease off and check with the PT.</p>
+      <p class="it">🚴 Knee revision · cross-training · updated Aug 2026</p>
+      <p>PT called for a pause from running to build leg strength — the pause has been <b>extended through Week 9 (Jul 11 – Aug 15)</b>, so <b>Weeks 4–9</b> are <b>easy cross-training</b> at HR 140–150 with <b>PT leg-strength daily</b>. The <b>Wed Aug 12 check</b> decides the restart. Weeks 10–12 are the <b>walk/run return-to-run ramp</b>, then the build resumes to an <b>18 mi</b> summit. All cross-train sessions (teal) are <b>easy spins or rows at HR 140–150</b> — bike-led, but <b>row anytime instead</b>. From Week 13 a <b>Tuesday spin</b> stays in as low-impact complement volume. The knee gates the ramp — if it flares, ease off and check with the PT.</p>
     </div>
 
     <div class="guide">
@@ -363,7 +363,7 @@
   </div>
 
   <footer>
-    <b>Knee &amp; foot first:</b> this version pauses running for a month (Weeks 4–7) on the PT's call, rebuilds with a walk/run ramp, and caps the long run at 18. If the knee or foot talks back, ease the ramp further and check with the PT/podiatrist before pushing on. The ★ Wednesdays are optional — drop them whenever you need to.
+    <b>Knee &amp; foot first:</b> this version pauses running (Weeks 4–9) on the PT's call, rebuilds with a walk/run ramp, and caps the long run at 18. If the knee or foot talks back, ease the ramp further and check with the PT/podiatrist before pushing on. The ★ Wednesdays are optional — drop them whenever you need to.
   </footer>
 </div>
 
@@ -376,16 +376,16 @@ const PLAN = [
   {w:5, iso:"2026-07-18", row:true, mon:35, wed:45, sat:60, phase:"cross"},
   {w:6, iso:"2026-07-25", row:true, mon:40, wed:50, sat:65, phase:"cross"},
   {w:7, iso:"2026-08-01", row:true, mon:40, wed:50, sat:70, phase:"cross"},
-  {w:8, iso:"2026-08-08", rtr:true, mon:2, wed:2, sat:3,  phase:"rtr", xt:[{day:"tue",min:40,mode:"bike"},{day:"thu",min:40,mode:"bike"}], note:"Run days: run 1′ / walk 2′."},
-  {w:9, iso:"2026-08-15", rtr:true, mon:3, wed:3, sat:5,  phase:"rtr", xt:[{day:"tue",min:35,mode:"bike"},{day:"thu",min:30,mode:"bike"}], note:"Run days: run 2′ / walk 1′."},
-  {w:10,iso:"2026-08-22", rtr:true, mon:3, wed:4, sat:7,  phase:"rtr", xt:[{day:"tue",min:30,mode:"bike"}], note:"Run days: back to your usual run 4′ / walk 1′."},
-  {w:11,iso:"2026-08-29", mon:4, wed:5, sat:9,  phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:12,iso:"2026-09-05", mon:4, wed:5, sat:10, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:13,iso:"2026-09-12", mon:4, wed:6, sat:12, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:14,iso:"2026-09-19", mon:3, wed:5, sat:8,  phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
-  {w:15,iso:"2026-09-26", mon:4, wed:6, sat:12, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:16,iso:"2026-10-03", mon:4, wed:6, sat:14, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:17,iso:"2026-10-10", mon:4, wed:6, sat:15, phase:"build", mp:"2 mi at marathon effort — 2 easy / 2 MP / 2 easy", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:8, iso:"2026-08-08", row:true, mon:30, wed:30, sat:60, phase:"cross", note:"Holding the block — not cleared to run yet."},
+  {w:9, iso:"2026-08-15", row:true, mon:30, wed:30, sat:60, phase:"cross", note:"Holding again — PT check Wed Aug 12 decides the restart."},
+  {w:10,iso:"2026-08-22", rtr:true, mon:2, wed:2, sat:3,  phase:"rtr", xt:[{day:"tue",min:40,mode:"bike"},{day:"thu",min:40,mode:"bike"}], note:"Run days: run 1′ / walk 2′."},
+  {w:11,iso:"2026-08-29", rtr:true, mon:3, wed:3, sat:5,  phase:"rtr", xt:[{day:"tue",min:35,mode:"bike"},{day:"thu",min:30,mode:"bike"}], note:"Run days: run 2′ / walk 1′."},
+  {w:12,iso:"2026-09-05", rtr:true, mon:3, wed:4, sat:7,  phase:"rtr", xt:[{day:"tue",min:30,mode:"bike"}], note:"Run days: back to your usual run 4′ / walk 1′."},
+  {w:13,iso:"2026-09-12", mon:4, wed:5, sat:9,  phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:14,iso:"2026-09-19", mon:4, wed:6, sat:11, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:15,iso:"2026-09-26", mon:3, wed:5, sat:8,  phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
+  {w:16,iso:"2026-10-03", mon:4, wed:6, sat:12, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:17,iso:"2026-10-10", mon:4, wed:6, sat:14, phase:"build", mp:"2 mi at marathon effort — 2 easy / 2 MP / 2 easy", xt:[{day:"tue",min:40,mode:"bike"}]},
   {w:18,iso:"2026-10-17", mon:3, wed:5, sat:11, phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
   {w:19,iso:"2026-10-24", mon:4, wed:6, sat:15, phase:"peak", xt:[{day:"tue",min:40,mode:"bike"}]},
   {w:20,iso:"2026-10-31", mon:4, wed:6, sat:16, phase:"peak", mp:"3 mi at marathon effort — 1.5 easy / 3 MP / 1.5 easy", xt:[{day:"tue",min:40,mode:"bike"}]},
