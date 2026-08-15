@@ -307,8 +307,8 @@
     <p class="tagline">Effort over pace. Walk breaks welcome. The long run builds everything else — tap each session as you bank it.</p>
 
     <div class="injury">
-      <p class="it">🚴 Knee revision · cross-training · updated Aug 2026</p>
-      <p>PT called for a pause from running to build leg strength — the pause has been <b>extended through Week 9 (Jul 11 – Aug 15)</b>, so <b>Weeks 4–9</b> are <b>easy cross-training</b> at HR 140–150 with <b>PT leg-strength daily</b>. The <b>Wed Aug 12 check</b> decides the restart. Weeks 10–12 are the <b>walk/run return-to-run ramp</b>, then the build resumes to an <b>18 mi</b> summit. All cross-train sessions (teal) are <b>easy spins or rows at HR 140–150</b> — bike-led, but <b>row anytime instead</b>. From Week 13 a <b>Tuesday spin</b> stays in as low-impact complement volume. The knee gates the ramp — if it flares, ease off and check with the PT.</p>
+      <p class="it">🚴 Knee revision · cross-training · updated Aug 14 2026</p>
+      <p>PT called for a pause from running to build leg strength, and it's been <b>extended twice — Weeks 4–10 (Jul 11 – Aug 22)</b> are now <b>easy cross-training</b> at HR 140–150 with <b>PT leg-strength daily</b>. The <b>indoor bike arrived Aug 12</b> and leads from here; the erg is the anytime substitute. Weeks 11–13 are the <b>walk/run return-to-run ramp</b> once you're cleared, then the build runs to a <b>16 mi</b> summit — trimmed from 18 to keep the rebuild gradual after seven weeks off. From Week 14 a <b>Tuesday spin</b> stays in as low-impact complement volume. The knee gates the ramp — if it flares, ease off and check with the PT.</p>
     </div>
 
     <div class="guide">
@@ -363,7 +363,7 @@
   </div>
 
   <footer>
-    <b>Knee &amp; foot first:</b> this version pauses running (Weeks 4–9) on the PT's call, rebuilds with a walk/run ramp, and caps the long run at 18. If the knee or foot talks back, ease the ramp further and check with the PT/podiatrist before pushing on. The ★ Wednesdays are optional — drop them whenever you need to.
+    <b>Knee &amp; foot first:</b> this version pauses running (Weeks 4–10) on the PT's call, rebuilds with a walk/run ramp, and caps the long run at 16. If the knee or foot talks back, ease the ramp further and check with the PT/podiatrist before pushing on. The ★ Wednesdays are optional — drop them whenever you need to.
   </footer>
 </div>
 
@@ -377,22 +377,22 @@ const PLAN = [
   {w:6, iso:"2026-07-25", row:true, mon:40, wed:50, sat:65, phase:"cross"},
   {w:7, iso:"2026-08-01", row:true, mon:40, wed:50, sat:70, phase:"cross"},
   {w:8, iso:"2026-08-08", row:true, mon:30, wed:30, sat:60, phase:"cross", note:"Holding the block — not cleared to run yet."},
-  {w:9, iso:"2026-08-15", row:true, mon:30, wed:30, sat:60, phase:"cross", note:"Holding again — PT check Wed Aug 12 decides the restart."},
-  {w:10,iso:"2026-08-22", rtr:true, mon:2, wed:2, sat:3,  phase:"rtr", xt:[{day:"tue",min:40,mode:"bike"},{day:"thu",min:40,mode:"bike"}], note:"Run days: run 1′ / walk 2′."},
-  {w:11,iso:"2026-08-29", rtr:true, mon:3, wed:3, sat:5,  phase:"rtr", xt:[{day:"tue",min:35,mode:"bike"},{day:"thu",min:30,mode:"bike"}], note:"Run days: run 2′ / walk 1′."},
-  {w:12,iso:"2026-09-05", rtr:true, mon:3, wed:4, sat:7,  phase:"rtr", xt:[{day:"tue",min:30,mode:"bike"}], note:"Run days: back to your usual run 4′ / walk 1′."},
-  {w:13,iso:"2026-09-12", mon:4, wed:5, sat:9,  phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:14,iso:"2026-09-19", mon:4, wed:6, sat:11, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:15,iso:"2026-09-26", mon:3, wed:5, sat:8,  phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
-  {w:16,iso:"2026-10-03", mon:4, wed:6, sat:12, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:17,iso:"2026-10-10", mon:4, wed:6, sat:14, phase:"build", mp:"2 mi at marathon effort — 2 easy / 2 MP / 2 easy", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:18,iso:"2026-10-17", mon:3, wed:5, sat:11, phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
-  {w:19,iso:"2026-10-24", mon:4, wed:6, sat:15, phase:"peak", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:20,iso:"2026-10-31", mon:4, wed:6, sat:16, phase:"peak", mp:"3 mi at marathon effort — 1.5 easy / 3 MP / 1.5 easy", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:21,iso:"2026-11-07", mon:3, wed:5, sat:12, phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
-  {w:22,iso:"2026-11-14", mon:4, wed:6, sat:17, phase:"peak", mp:"4 mi at marathon effort — 1 easy / 4 MP / 1 easy", xt:[{day:"tue",min:30,mode:"bike"}]},
-  {w:23,iso:"2026-11-21", mon:4, wed:5, sat:18, phase:"summit"},
-  {w:24,iso:"2026-11-28", mon:3, wed:5, sat:13, phase:"taper"},
+  {w:9, iso:"2026-08-15", row:true, modes:{wed:"bike",sat:"bike"}, mon:30, wed:30, sat:60, phase:"cross", note:"Sat = fit changes first, then 40 min ride (stand 30s every 8–10 min) + 20 min erg. Any numbness ends the ride."},
+  {w:10,iso:"2026-08-22", row:true, mode:"bike", modes:{sat:"row"}, mon:40, wed:40, sat:70, phase:"cross", note:"Short rides to test the fit; long session on the erg until the numbness is gone — then it's a 75 min ride."},
+  {w:11,iso:"2026-08-29", rtr:true, mon:2, wed:2, sat:3,  phase:"rtr", xt:[{day:"tue",min:40,mode:"bike"},{day:"thu",min:40,mode:"bike"}], note:"Run days: run 1′ / walk 2′."},
+  {w:12,iso:"2026-09-05", rtr:true, mon:3, wed:3, sat:5,  phase:"rtr", xt:[{day:"tue",min:35,mode:"bike"},{day:"thu",min:30,mode:"bike"}], note:"Run days: run 2′ / walk 1′."},
+  {w:13,iso:"2026-09-12", rtr:true, mon:3, wed:4, sat:7,  phase:"rtr", xt:[{day:"tue",min:30,mode:"bike"}], note:"Run days: back to your usual run 4′ / walk 1′."},
+  {w:14,iso:"2026-09-19", mon:4, wed:5, sat:9,  phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:15,iso:"2026-09-26", mon:4, wed:6, sat:11, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:16,iso:"2026-10-03", mon:3, wed:5, sat:8,  phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
+  {w:17,iso:"2026-10-10", mon:4, wed:6, sat:12, phase:"build", mp:"2 mi at marathon effort — 2 easy / 2 MP / 2 easy", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:18,iso:"2026-10-17", mon:4, wed:6, sat:13, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:19,iso:"2026-10-24", mon:3, wed:5, sat:10, phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
+  {w:20,iso:"2026-10-31", mon:4, wed:6, sat:14, phase:"peak", mp:"3 mi at marathon effort — 1.5 easy / 3 MP / 1.5 easy", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:21,iso:"2026-11-07", mon:4, wed:6, sat:15, phase:"peak", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:22,iso:"2026-11-14", mon:3, wed:6, sat:11, phase:"cut", mp:"4 mi at marathon effort — 1 easy / 4 MP / 1 easy", xt:[{day:"tue",min:30,mode:"bike"}]},
+  {w:23,iso:"2026-11-21", mon:4, wed:5, sat:16, phase:"summit"},
+  {w:24,iso:"2026-11-28", mon:3, wed:5, sat:12, phase:"taper"},
   {w:25,iso:"2026-12-05", mon:3, wed:4, sat:9,  phase:"taper"},
   {w:26,iso:"2026-12-12", mon:3, wed:3, sat:4,  phase:"taper", shake:true},
 ];
@@ -533,8 +533,8 @@ function buildWeeks(){
     const tagClass = PHASE_CLASS[p.phase]||"base";
     const tagText = p.phase==="summit"?"Summit · longest run":PHASE_LABEL[p.phase];
     const nowBadge = p.w===currentW?`<span class="tag" style="color:var(--sun);border-color:var(--sun)">This week</span>`:"";
-    const satLabel = p.shake ? "Sat · shakeout" : (p.row ? "Sat · long row" : "Sat · long");
-    const noteIcon = p.row ? "🚣" : (p.rtr ? "↩" : "");
+    const satLabel = p.shake ? "Sat · shakeout" : (p.row ? (blockMode(p,"sat")==="bike"?"Sat · long ride":"Sat · long row") : "Sat · long");
+    const noteIcon = p.row ? (blockMode(p,"sat")==="bike"?"🚴":"🚣") : (p.rtr ? "↩" : "");
     el.innerHTML=`
       <div class="wnum">${p.w}<small>${dayDate(p.iso,"mon")}</small></div>
       <div class="wbody">
@@ -555,13 +555,18 @@ function buildWeeks(){
   });
 }
 const XT_LABEL={tue:"Tue",thu:"Thu"};
+// Mon/Wed/Sat of a cross-train block week: per-day override, else the week's mode, else rowing.
+function blockMode(p,day){
+  if(!p.row) return undefined;
+  return (p.modes && p.modes[day]) || p.mode || "row";
+}
 function weekPills(p,satLabel){
   const xtByDay={}; (p.xt||[]).forEach(x=>xtByDay[x.day]=x);
   const order=["mon","tue","wed","thu","sat"];
   return order.map(day=>{
-    if(day==="mon") return pill(p.w,"mon","Mon",p.mon,false,false,p.iso,p);
-    if(day==="wed") return pill(p.w,"wed","Wed",p.wed,!!p.mp,false,p.iso,p);
-    if(day==="sat") return pill(p.w,"sat",satLabel,p.sat,false,true,p.iso,p);
+    if(day==="mon") return pill(p.w,"mon","Mon",p.mon,false,false,p.iso,p,blockMode(p,"mon"));
+    if(day==="wed") return pill(p.w,"wed","Wed",p.wed,!!p.mp,false,p.iso,p,blockMode(p,"wed"));
+    if(day==="sat") return pill(p.w,"sat",satLabel,p.sat,false,true,p.iso,p,blockMode(p,"sat"));
     const x=xtByDay[day];
     return x ? pill(p.w,day,XT_LABEL[day],x.min,false,false,p.iso,p,x.mode||"row") : "";
   }).join("");
@@ -569,14 +574,12 @@ function weekPills(p,satLabel){
 function pill(w,day,label,val,star,sat,iso,p,kind){
   const id=w+"-"+day;
   const done=!!state[id];
-  const cross = kind==="bike"||kind==="row";        // Tue/Thu cross-train pill
-  const blockRow = !cross && !!(p&&p.row);           // rowing-block main day (minutes)
-  const teal = cross || blockRow;                    // teal styling for any cross-train
+  const teal = kind==="bike"||kind==="row";          // any cross-train pill: Tue/Thu extra or block main day
   const rtr = !teal && !!(p&&p.rtr);                 // return-to-run running day
   const xword = kind==="bike" ? "ride" : "row";
   const main = teal ? `${val} min` : `${val} mi`;
-  const sub  = cross ? xword : (blockRow ? "row" : (rtr ? "run/walk" : `${km(val)} km`));
-  const aria = teal ? `${label}, ${val} minute ${cross?xword:"row"}, ${dayDate(iso,day)}`
+  const sub  = teal ? xword : (rtr ? "run/walk" : `${km(val)} km`);
+  const aria = teal ? `${label}, ${val} minute ${xword}, ${dayDate(iso,day)}`
                     : `${label}, ${val} miles${rtr?" run/walk":""}, ${dayDate(iso,day)}`;
   return `<button class="pill ${sat?"sat":""} ${teal?"row":""} ${kind==="bike"?"bike":""} ${rtr?"rtr":""} ${done?"done":""}" data-id="${id}" role="checkbox" aria-checked="${done}" tabindex="0" aria-label="${aria}">
     <span class="d">${label}</span><span class="m">${main}</span>
