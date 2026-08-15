@@ -49,8 +49,8 @@ Weeks 1–3 are running (already done). Weeks 4–10 are **cross-training** (min
 | 6 | Jul 25 | 40 min row | 50 min row | **65 min long row** | 🚣 Cross-train |
 | 7 | Aug 1 | 40 min row | 50 min row | **70 min long row** | 🚣 Cross-train |
 | 8 | Aug 8 | 30 min row ✓ | 30 min row ✓ | **60 min long row** | 🚣 Cross-train (hold) |
-| 9 | Aug 15 | 30 min row | 30 min ride ✓ | **60 min: 40 ride + 20 row** | 🚴 Cross-train (hold) |
-| 10 | Aug 22 | 40 min ride | 40 min ride | **70 min long row** | 🚴 Cross-train (hold) |
+| 9 | Aug 15 | 30 min row | 30 min ride ✓ | **60 min long ride ✓** | 🚴 Cross-train (hold) |
+| 10 | Aug 22 | 40 min ride | 40 min ride | **75 min long ride** | 🚴 Cross-train (hold) |
 | 11 | Aug 29 | 2 (r/w) | 2 (r/w) | **3 (run/walk)** | ↩ Return to run |
 | 12 | Sep 5 | 3 (r/w) | 3 (r/w) | **5 (run/walk)** | ↩ Return to run |
 | 13 | Sep 12 | 3 | 4 | **7** | ↩ Return to run |
@@ -105,7 +105,20 @@ Regardless of fit, **stand up for 20–30 seconds every 8–10 minutes** to rest
 
 Change **one thing at a time** and test it on a short ride.
 
-**While the fit is unresolved, split the long session.** Make the position changes first, then ride the portion you've already shown you tolerate and finish on the erg — Aug 15 is 40 min ride + 20 min row, which keeps the full 60 min at 140–150 while capping saddle time. Stand for 30 seconds every 8–10 minutes. **Any numbness ends the bike portion immediately** — move to the erg for the rest. Extend the bike share each week as long as it stays clear; if numbness shows up even after the position changes, that points at the saddle itself rather than the fit. And if it persists after all of it, mention it to the PT or your doctor rather than living with it.
+**Resolved Aug 15:** a full 60-minute ride with no groin numbness after the position changes. The long ride goes back on the bike and steps toward 90. Keep standing for 30 seconds every 8–10 minutes anyway — it's good practice on any setup. If it ever returns, the next lever is the saddle itself (step 5), and if it persists after that, mention it to the PT or your doctor rather than living with it.
+
+### Hands and feet — the next pressure points
+
+The Aug 15 ride produced slight numbness in the **right index finger** and **right big toe**, both clearing within 30 seconds of getting off. That's transient positional compression, not injury — but it's worth fixing rather than tolerating.
+
+- **Index finger** is median-nerve territory: weight on the heel of the hand with the wrist bent back. (Ulnar compression, the classic "handlebar palsy," hits the ring and pinky instead.) The saddle was *not* tilted nose-down, so this isn't a forward-slide problem — it's cockpit height and hand position. **Get the bars at or above saddle height**; if they still sit below it you're carrying real weight on your hands, and on an easy indoor ride there's no reason not to be upright. Then: wrists in a neutral handshake line with the forearm rather than cocked back on the bar tops, elbows visibly bent rather than locked, light grip (you're not steering — hands can come off), and shift position every few minutes. **Padded gloves do help here** — unlike padded shorts for the groin, hand padding addresses the actual mechanism.
+- **Big toe** is forefoot pressure — "hot foot." Cheapest fixes first: loosen shoes and straps a notch (feet swell during exercise); check that the **ball of the foot sits over or just behind the pedal spindle**, not the toes; and use a stiffer-soled shoe, since a flexible running sole lets the pedal edge dig into the forefoot. Worth raising with the podiatrist, especially about orthotics — ones built for running don't necessarily work on a pedal.
+
+**Both symptoms were on the right side.** Probably just the dominant side gripping and pushing harder, and two mild symptoms is thin evidence. But asymmetric pressure at both contact points is also what unconsciously offloading one leg looks like — worth mentioning to the PT, and worth paying attention to mid-ride.
+
+**Keep the standing breaks.** Numb at 30 minutes continuous, clean at 60 with nothing longer than a 10-minute stretch in the saddle — the intermittent unloading is likely doing more of the work than the shorts. Don't drop it once things feel fine.
+
+Transient is fine. **Numbness that lingers for minutes or hours after the ride is not** — that means backing off and getting it looked at.
 - **No ratio to hit — just steady easy effort.** Don't replicate the 4:1 run/walk on the erg or the bike. Your walk breaks are a *running* tool (they manage impact and heat and rehearse race day); cross-training has no impact and isn't race-specific, so simply hold the 140–150 zone for the whole session. The only target is time in the zone. You'll get real run/walk practice back in Weeks 11–13.
 - **PT leg-strength: every day.** This is the whole point of the pause — the strength work is the priority, the cardio keeps the engine warm.
 
