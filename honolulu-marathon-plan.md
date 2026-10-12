@@ -13,8 +13,8 @@ Running resumed after the cross-training block — 2.5 miles on Aug 24 and 3 on 
 
 - **The long run moves to Monday mornings,** before work. Wednesday and often Saturday are club runs with your son, so Monday is the day that's reliably yours.
 - **The long run peaks at 13 miles on Mon Nov 23,** three weeks out. That's the existing ramp, slid five weeks to start where you are now, under the standing rule: slide the ramp, never compress it, and take the cost off the peak.
-- **Wednesday is the club trail run** — 3–4 miles, usually a harder effort — and it's the week's one harder run. **Saturday stays easy,** club run or not, because Monday's long run is two days later.
-- **The ★ marathon-effort Wednesdays are dropped.** The club run already supplies the week's harder effort, and a no-clock finish doesn't need them.
+- **Wednesday and Saturday are the club trail runs** — 3–4 miles each, usually a harder effort — and they're the week's two harder runs. The Monday long run stays easy, and Sunday is full rest between a hard Saturday and the long run.
+- **The ★ marathon-effort Wednesdays are dropped.** The club runs already supply the harder efforts, and a no-clock finish doesn't need them.
 - **The knee and the Achilles gate every step.** The Oct 12 run brought some Achilles soreness during the run. *The morning check* below decides each Monday whether the long run steps up or repeats.
 - **Race day is twice the longest run.** That's fine with no cutoff: run/walk from the gun, and plan on walking more past mile 13.
 
@@ -32,7 +32,7 @@ Running resumed after the cross-training block — 2.5 miles on Aug 24 and 3 on 
 
 ## The five rules that make this work
 
-1. **Easy means easy.** Almost every mile — and every cross-training minute — is at conversational effort — heart rate roughly **140–150**, capped around 150. If you can't speak full sentences, slow down or walk (or ease the gear). The one exception is the Wednesday club run. Easy is what lets the long runs keep growing without wrecking you.
+1. **Easy means easy.** Almost every mile — and every cross-training minute — is at conversational effort — heart rate roughly **140–150**, capped around 150. If you can't speak full sentences, slow down or walk (or ease the gear). The exceptions are the Wednesday and Saturday club runs. Easy is what lets the long runs keep growing without wrecking you.
 
 2. **Run/walk from the start.** Practice a ratio in training (run 4 min / walk 1 min) so it's automatic on race day. Walk breaks lower your heart rate and core temp — in Honolulu's heat they often make you *faster* overall, not slower. Every Monday long run is 4′/1′.
 
@@ -46,18 +46,18 @@ Running resumed after the cross-training block — 2.5 miles on Aug 24 and 3 on 
 
 ## The schedule
 
-**Monday is the long run**, at run 4′ / walk 1′. **Wednesday** is the club trail run (3–4 mi), or an easy 3–4 if there's no club that week. **Saturday** is an easy 3–4 — a club run is fine if you keep it easy. The Tuesday spin and PT strength sit off this table — see "The other days" below.
+**Monday is the long run**, at run 4′ / walk 1′. **Wednesday and Saturday** are the club trail runs (3–4 mi, usually hard), or an easy 3–4 when there's no club. The Tuesday spin and PT strength sit off this table — see "The other days" below.
 
 | Week | Monday | **Mon (long)** | Wed | Sat | Phase |
 |------|--------|----------------|-----|-----|-------|
-| 18 | Oct 12 | **5.44 ✓** | 3–4 club | 3–4 easy | Build |
-| 19 | Oct 19 | **7** | 3–4 club | 3–4 easy | Build |
-| 20 | Oct 26 | **9** | 3–4 club | 3–4 easy | Build |
-| 21 | Nov 2 | **11** | 3–4 club | 3–4 easy | Build |
-| 22 | Nov 9 | **8** | 3–4 club | 3–4 easy | ↓ Cutback |
-| 23 | Nov 16 | **12** | 3–4 club | 3–4 easy | Peak build |
-| 24 | Nov 23 | **13** | 3–4 club | 3–4 easy | **PEAK — longest run** |
-| 25 | Nov 30 | **10** | 3 easy | 3 easy | Taper |
+| 18 | Oct 12 | **5.44 ✓** | 3–4 club | 3–4 club | Build |
+| 19 | Oct 19 | **7** | 3–4 club | 3–4 club | Build |
+| 20 | Oct 26 | **9** | 3–4 club | 3–4 club | Build |
+| 21 | Nov 2 | **11** | 3–4 club | 3–4 club | Build |
+| 22 | Nov 9 | **8** | 3–4 club | 3–4 club | ↓ Cutback |
+| 23 | Nov 16 | **12** | 3–4 club | 3–4 club | Peak build |
+| 24 | Nov 23 | **13** | 3–4 club | 3–4 club | **PEAK — longest run** |
+| 25 | Nov 30 | **10** | 3–4 club | 3–4 club | Taper |
 | 26 | Dec 7 | **5** | 3 easy | 3 easy shakeout (Dec 12) | Race week |
 | — | **Sun Dec 13** | **RACE — 26.2** | — | — | 🏁 |
 
@@ -95,8 +95,8 @@ Peak week (Week 24) is ~20 miles. That's lean on purpose: three runs a week, wit
 
 ### Wednesday and Saturday
 
-- **Wednesday — the club trail run.** 3–4 mi, usually a harder effort. It's the week's one harder run, standing in for the dropped ★ sessions. Skip it, or run it easy, when the morning check isn't clean.
-- **Saturday — easy 3–4.** If it's a club run, run it easy: Monday's long run is two days later.
+- **The club trail runs.** 3–4 mi, usually a harder effort — the week's two harder runs, standing in for the dropped ★ sessions. Skip one, or run it easy, when the morning check isn't clean. No club that day? An easy 3–4.
+- **A hard Saturday sits two days before the long run.** Sunday is full rest, and Monday's long run stays at easy effort however Saturday went.
 - **Trails and hills:** climbs work the calf and Achilles harder, and descents load the knee. While either one is grumpy, walk the steep parts.
 
 ### The morning check — knee and Achilles
@@ -126,7 +126,7 @@ Week-to-week mileage increases showed no link. The ramp has three steps over 10%
 
 ### Taper
 
-The long run drops to 10 on Nov 30, then 5 on Dec 7, six days out. Saturday Dec 12 is a 3-mile easy shakeout — skip it if travel gets in the way.
+The long run drops to 10 on Nov 30, then 5 on Dec 7, six days out. Race week is easy only: Wednesday Dec 9 is an easy 3, and Saturday Dec 12 a 3-mile easy shakeout — skip it if travel gets in the way.
 
 ---
 

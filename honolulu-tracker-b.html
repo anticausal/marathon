@@ -314,12 +314,12 @@
 
     <div class="injury">
       <p class="it">🤒 Restart after illness · updated Oct 12 2026</p>
-      <p>About a month sick with <b>no running</b> — back since <b>Oct 2</b>. The long run moves to <b>Monday mornings</b> and builds to a <b>13 mi</b> peak on <b>Nov 23</b>, three weeks out. Wednesday is the <b>club trail run</b> — the week's one harder run — and Saturday stays <b>easy</b>. The ★ marathon-effort Wednesdays are dropped. <b>The knee and the Achilles gate every step:</b> if either isn't back to normal the next morning, repeat last Monday's distance instead of stepping up.</p>
+      <p>About a month sick with <b>no running</b> — back since <b>Oct 2</b>. The long run moves to <b>Monday mornings</b> and builds to a <b>13 mi</b> peak on <b>Nov 23</b>, three weeks out. Wednesday and Saturday are the <b>club trail runs</b>, usually hard; the Monday long run stays <b>easy</b>. The ★ marathon-effort Wednesdays are dropped. <b>The knee and the Achilles gate every step:</b> if either isn't back to normal the next morning, repeat last Monday's distance instead of stepping up.</p>
     </div>
 
     <div class="guide">
       <span class="hr">Effort: <b>140–150</b> easy · <b>148–158</b> race <small>bpm (max ~185)</small></span>
-      <span class="chip" tabindex="0" data-tip="Almost every mile is conversational — HR ~140–150, capped near 150. Can't speak full sentences? Slow down or walk. The Wednesday club run is the one exception. Same effort gets faster on its own as your aerobic base builds over the months.">Easy means easy</span>
+      <span class="chip" tabindex="0" data-tip="Almost every mile is conversational — HR ~140–150, capped near 150. Can't speak full sentences? Slow down or walk. The Wednesday and Saturday club runs are the exceptions. Same effort gets faster on its own as your aerobic base builds over the months.">Easy means easy</span>
       <span class="chip" tabindex="0" data-tip="Knee and Achilles, every morning: back to normal? First steps out of bed for the Achilles, the stairs for the knee. During a run, stop and walk if pain passes 5 out of 10, turns sharp, or changes your stride. Step the Monday long run up only if every morning that week was clean — otherwise repeat last Monday's distance.">Morning check</span>
       <span class="chip" tabindex="0" data-tip="Practice a ratio from day one (e.g. run 4 min / walk 1 min) so it's automatic on race day. Walk breaks lower your heart rate and core temp — in Honolulu's heat they often make you faster overall, not slower.">Run / walk</span>
       <span class="chip" tabindex="0" data-tip="Tue: easy 30–40 min spin, optional — it doubles as recovery after Monday's long run. Thu: PT strength, or an optional easy spin. Fri: rest or light yoga. Sun: rest — go into Monday's long run fresh.">Other days</span>
@@ -393,14 +393,14 @@ const PLAN = [
   {w:15,iso:"2026-09-26", phase:"off"},
   {w:16,iso:"2026-10-03", fri:2.63, sun:3.15, phase:"rtr", note:"Back running after the illness."},
   {w:17,iso:"2026-10-10", thu:2.81, fri:3.54, phase:"rtr"},
-  {w:18,iso:"2026-10-17", long:"mon", mon:5.44, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}], note:"The long run moves to Monday. Monday's 5.44 was a big jump and the Achilles complained — run Wednesday only if the morning check is clean, and keep it easy this week."},
-  {w:19,iso:"2026-10-24", long:"mon", mon:7,  wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}], note:"Step up to 7 only if every morning last week was clean. Otherwise repeat 5.5 — and the peak becomes 12."},
-  {w:20,iso:"2026-10-31", long:"mon", mon:9,  wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:21,iso:"2026-11-07", long:"mon", mon:11, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:22,iso:"2026-11-14", long:"mon", mon:8,  wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
-  {w:23,iso:"2026-11-21", long:"mon", mon:12, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"peak", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:24,iso:"2026-11-28", long:"mon", mon:13, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"summit", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:25,iso:"2026-12-05", long:"mon", mon:10, wed:3, sat:3, sub:{wed:"easy",sat:"easy"}, phase:"taper", xt:[{day:"tue",min:30,mode:"bike"}]},
+  {w:18,iso:"2026-10-17", long:"mon", mon:5.44, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"club"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}], note:"The long run moves to Monday. Monday's 5.44 was a big jump and the Achilles complained — club runs only if the morning check is clean, and keep Wednesday easy this week."},
+  {w:19,iso:"2026-10-24", long:"mon", mon:7,  wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"club"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}], note:"Step up to 7 only if every morning last week was clean. Otherwise repeat 5.5 — and the peak becomes 12."},
+  {w:20,iso:"2026-10-31", long:"mon", mon:9,  wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"club"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:21,iso:"2026-11-07", long:"mon", mon:11, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"club"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:22,iso:"2026-11-14", long:"mon", mon:8,  wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"club"}, phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
+  {w:23,iso:"2026-11-21", long:"mon", mon:12, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"club"}, phase:"peak", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:24,iso:"2026-11-28", long:"mon", mon:13, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"club"}, phase:"summit", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:25,iso:"2026-12-05", long:"mon", mon:10, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"club"}, phase:"taper", xt:[{day:"tue",min:30,mode:"bike"}]},
   {w:26,iso:"2026-12-12", long:"mon", mon:5,  wed:3, sat:3, sub:{wed:"easy"}, phase:"taper", shake:true},
 ];
 const RACE_MILES = 26.2;
