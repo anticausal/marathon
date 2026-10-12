@@ -463,6 +463,7 @@ PLAN.forEach(p=>{
 MILES["race"]=RACE_MILES;
 SESSIONS.add("race");
 const RUN_LONGS = PLAN.filter(p=>!p.row && longDay(p)).length;   // long runs that are actual runs
+const SUMMIT_W = (PLAN.find(p=>p.phase==="summit")||{}).w;
 const TOTAL_SESSIONS = SESSIONS.size;              // includes extra rowing days
 const TOTAL_MILES = Object.values(MILES).reduce((a,b)=>a+b,0);
 
@@ -513,7 +514,7 @@ function buildRidge(){
     if(b.phase==="race"){
       rects += `<rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" rx="3" fill="none" stroke="var(--sun)" stroke-width="1.4" opacity="${done?0:.9}"/>`;
     }
-    if(b.phase==="summit" || b.w==="R" || b.w%4===1){
+    if(b.phase==="summit" || b.w==="R" || (b.w%4===1 && !(Math.abs(b.w-SUMMIT_W)<=1))){   // keep labels off the summit's neighbors
       labels += `<text x="${(x+bw/2).toFixed(1)}" y="${H-padB+16}" text-anchor="middle" font-family="Space Mono,monospace" font-size="10" fill="#7e93bd">${b.w==="R"?"RACE":b.w}</text>`;
     }
   });
