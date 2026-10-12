@@ -1,43 +1,69 @@
 # Honolulu Marathon Training Plan
 
 **Race:** JAL Honolulu Marathon — Sunday, December 13, 2026, 5:00 AM start
-**Runner:** Brandon (44) — run days Mon / Wed / Sat
+**Runner:** Brandon (44) — runs Mon (long) / Wed / Sat
 **Goal:** Finish comfortably (no time pressure — there is no cutoff)
 **Starting point:** ~5–6 mile longest run, ~26 weeks out
 
 ---
 
-## ⚠️ Knee revision — July 2026 (updated Aug 14)
+## ⚠️ Restart after illness — October 2026 (updated Oct 12)
 
-Brandon's knee flared, and the physical therapist called for **a pause from running to build leg strength**, with rowing or biking for cardio. The knee wasn't ready at the end of the original month, and it isn't ready now either, so **the pause has been extended twice — Weeks 8, 9 and 10 all hold (through Aug 22)**. This version of the plan reflects that:
+After the cross-training block you were sick for about a month: no running, walks of 1–2 miles a day. Running restarted **Oct 2**. This version of the plan rebuilds from there:
 
-- **Weeks 4–10 are a cross-training block** — no running, seven weeks total. Each session **matches the duration and easy effort (HR 140–150) of the run it replaces**, so the aerobic engine is maintained. PT leg-strength work is **daily**.
-- **Weeks 11–13 are a walk/run return-to-run ramp**, rebuilding impact tolerance gradually while easy cross-training holds the aerobic base.
-- **The indoor bike arrived Aug 12** and is now the primary cross-training. Every session is an **easy spin at HR 140–150** — bike-led, with the erg as an anytime substitute. From **Week 14 on, a Tuesday spin stays in** as low-impact complement volume all the way to the race.
-- **The long run now peaks at 16 miles** (Nov 21), trimmed from 18. Seven weeks off running means the rebuild starts later and has to stay gradual; 16 is plenty for a no-clock finish and it keeps every step of the ramp honest. This was the fallback written into the plan on Aug 7, and the Aug 12 check triggered it.
-- **The knee gates the ramp.** If pain returns, back off and check with the PT before pushing on.
+- **The long run moves to Monday mornings,** before work. Wednesday and often Saturday are club runs with your son, so Monday is the day that's reliably yours.
+- **The long run peaks at 13 miles on Mon Nov 23,** three weeks out. That's the existing ramp, slid five weeks to start where you are now, under the standing rule: slide the ramp, never compress it, and take the cost off the peak.
+- **Wednesday is the club trail run** — 3–4 miles, usually a harder effort — and it's the week's one harder run. **Saturday stays easy,** club run or not, because Monday's long run is two days later.
+- **The ★ marathon-effort Wednesdays are dropped.** The club run already supplies the week's harder effort, and a no-clock finish doesn't need them.
+- **The knee and the Achilles gate every step.** The Oct 12 run brought some Achilles soreness during the run. *The morning check* below decides each Monday whether the long run steps up or repeats.
+- **Race day is twice the longest run.** That's fine with no cutoff: run/walk from the gun, and plan on walking more past mile 13.
 
-Good news: cross-training preserves almost all of your aerobic fitness. The only thing time off running costs is *impact conditioning* — bone, tendon, and running economy — which is exactly what the walk/run ramp rebuilds.
+### Restart log
+
+| Date | Run | Note |
+|------|-----|------|
+| Fri Oct 2 | 2.63 mi | First run back |
+| Sun Oct 4 | 3.15 mi | |
+| Thu Oct 8 | 2.81 mi | |
+| Fri Oct 9 | 3.54 mi | |
+| Mon Oct 12 | 5.44 mi | 54% longer than the previous longest. No knee pain during; some Achilles soreness during. |
 
 ---
 
 ## The five rules that make this work
 
-1. **Easy means easy.** Almost every mile — and every cross-training minute — is at conversational effort — heart rate roughly **140–150**, capped around 150. If you can't speak full sentences, slow down or walk (or ease the stroke rate or the gear). This is the opposite of how you've been running, and it's what lets the long runs keep growing without wrecking you.
+1. **Easy means easy.** Almost every mile — and every cross-training minute — is at conversational effort — heart rate roughly **140–150**, capped around 150. If you can't speak full sentences, slow down or walk (or ease the gear). The one exception is the Wednesday club run. Easy is what lets the long runs keep growing without wrecking you.
 
-2. **Run/walk from the start.** Practice a ratio in training (e.g. run 4 min / walk 1 min) so it's automatic on race day. Walk breaks lower your heart rate and core temp — in Honolulu's heat they often make you *faster* overall, not slower. The return-to-run ramp is built entirely on run/walk.
+2. **Run/walk from the start.** Practice a ratio in training (run 4 min / walk 1 min) so it's automatic on race day. Walk breaks lower your heart rate and core temp — in Honolulu's heat they often make you *faster* overall, not slower. Every Monday long run is 4′/1′.
 
-3. **Cutback weeks are training, not slacking.** Every 4th week the long run drops back so your body absorbs the work. Don't skip them — they're where you actually get stronger and where injuries get avoided.
+3. **Cutback weeks are training, not slacking.** The long run drops back in Week 22 so your body absorbs the work. Don't skip it — it's where you actually get stronger and where injuries get avoided.
 
-4. **The long run is the priority.** Monday and Wednesday are just easy support miles. If you're tired, shorten Mon/Wed before you touch Saturday.
+4. **The long run is the priority.** Wednesday and Saturday are support runs. If you're tired, shorten or skip those before you touch Monday.
 
-5. **The knee (and foot) gate the ramp.** This plan assumes the PT and podiatrist clear you to build. The cross-training block and walk/run ramp are deliberately conservative for exactly this reason. If the knee or foot talks back, back off and check with them — capping your longest run at **16** is already baked in, and going even shorter is totally fine for finishing.
+5. **The knee and the Achilles gate the ramp.** The long run steps up only after a week of clean mornings — see *The morning check*. If the knee, the Achilles or the foot talks back, repeat the distance and check with the PT or podiatrist. Capping your longest run at **13** is already baked in, and going even shorter is fine for finishing.
 
 ---
 
 ## The schedule
 
-Weeks 1–3 are running (already done). Weeks 4–10 are **cross-training** (minutes, not miles). Weeks 11–13 are **walk/run**. Mon/Wed = easy support; Sat = long session. Extra cross-training (an easy Tue/Thu bike spin from Week 11 on) sits off this table — see the tracker and "The other days" below.
+**Monday is the long run**, at run 4′ / walk 1′. **Wednesday** is the club trail run (3–4 mi), or an easy 3–4 if there's no club that week. **Saturday** is an easy 3–4 — a club run is fine if you keep it easy. The Tuesday spin and PT strength sit off this table — see "The other days" below.
+
+| Week | Monday | **Mon (long)** | Wed | Sat | Phase |
+|------|--------|----------------|-----|-----|-------|
+| 18 | Oct 12 | **5.44 ✓** | 3–4 club | 3–4 easy | Build |
+| 19 | Oct 19 | **7** | 3–4 club | 3–4 easy | Build |
+| 20 | Oct 26 | **9** | 3–4 club | 3–4 easy | Build |
+| 21 | Nov 2 | **11** | 3–4 club | 3–4 easy | Build |
+| 22 | Nov 9 | **8** | 3–4 club | 3–4 easy | ↓ Cutback |
+| 23 | Nov 16 | **12** | 3–4 club | 3–4 easy | Peak build |
+| 24 | Nov 23 | **13** | 3–4 club | 3–4 easy | **PEAK — longest run** |
+| 25 | Nov 30 | **10** | 3 easy | 3 easy | Taper |
+| 26 | Dec 7 | **5** | 3 easy | 3 easy shakeout (Dec 12) | Race week |
+| — | **Sun Dec 13** | **RACE — 26.2** | — | — | 🏁 |
+
+Peak week (Week 24) is ~20 miles. That's lean on purpose: three runs a week, with the long run carrying the specificity and the low total volume protecting the knee and the Achilles.
+
+### Weeks 1–17: what happened
 
 | Week | Saturday | Mon | Wed | **Sat (long)** | Phase |
 |------|----------|-----|-----|------------|-------|
@@ -51,29 +77,66 @@ Weeks 1–3 are running (already done). Weeks 4–10 are **cross-training** (min
 | 8 | Aug 8 | 30 min row ✓ | 30 min row ✓ | **60 min long row** | 🚣 Cross-train (hold) |
 | 9 | Aug 15 | 30 min row | 30 min ride ✓ | **60 min long ride ✓** | 🚴 Cross-train (hold) |
 | 10 | Aug 22 | 40 min ride | 40 min ride | **75 min long ride** | 🚴 Cross-train (hold) |
-| 11 | Aug 29 | 2 (r/w) | 2 (r/w) | **3 (run/walk)** | ↩ Return to run |
-| 12 | Sep 5 | 3 (r/w) | 3 (r/w) | **5 (run/walk)** | ↩ Return to run |
-| 13 | Sep 12 | 3 | 4 | **7** | ↩ Return to run |
-| 14 | Sep 19 | 4 | 5 | **9** | Build |
-| 15 | Sep 26 | 4 | 6 | **11** | Build |
-| 16 | Oct 3 | 3 | 5 | **8** | ↓ Cutback |
-| 17 | Oct 10 | 4 | 6 ★ | **12** | Build |
-| 18 | Oct 17 | 4 | 6 | **13** | Build |
-| 19 | Oct 24 | 3 | 5 | **10** | ↓ Cutback |
-| 20 | Oct 31 | 4 | 6 ★ | **14** | Peak build |
-| 21 | Nov 7 | 4 | 6 | **15** | Peak build |
-| 22 | Nov 14 | 3 | 6 ★ | **11** | ↓ Cutback |
-| 23 | Nov 21 | 4 | 5 | **16** | **PEAK — longest run** |
-| 24 | Nov 28 | 3 | 5 | **12** | Taper |
-| 25 | Dec 5 | 3 | 4 | **9** | Taper |
-| 26 | Dec 7–12 | 3 | 3 | **4 (easy shakeout)** | Race week |
-| — | **Dec 13** | — | — | **RACE — 26.2** | 🏁 |
+| 11–15 | Aug 29 – Sep 26 | — | — | — | 🤒 No running — about a month sick |
+| 16–17 | Oct 3 – Oct 10 | — | — | — | ↩ Restart — see the restart log above |
 
-Peak week (Week 21) is ~25 miles. That's intentionally lean for a 3-day week — the long run carries the specificity, and lower total volume protects the knee.
+---
+
+## Building back (Weeks 18–26)
+
+### The Monday long run
+
+- **Run 4′ / walk 1′ at HR 140–150** — the ratio you'll use on race day.
+- **An early start means running in the dark** — headlamp and something reflective. It's also good rehearsal: Honolulu starts at 5 AM in the dark.
+- **From the 9-miler on, practice your race-day food and drink** — whatever you plan to carry on Dec 13. Nothing new on race day.
+- **Rest on Sunday** so you start Monday fresh.
+
+### Wednesday and Saturday
+
+- **Wednesday — the club trail run.** 3–4 mi, usually a harder effort. It's the week's one harder run, standing in for the dropped ★ sessions. Skip it, or run it easy, when the morning check isn't clean.
+- **Saturday — easy 3–4.** If it's a club run, run it easy: Monday's long run is two days later.
+- **Trails and hills:** climbs work the calf and Achilles harder, and descents load the knee. While either one is grumpy, walk the steep parts.
+
+### The morning check — knee and Achilles
+
+Adapted from the pain-monitoring approach used in Achilles rehab (Silbernagel et al., 2007; BC Physical Therapy tendinopathy toolkit, 2021):
+
+1. **During a run:** mild discomfort is OK. Stop running and walk if the pain passes 5 out of 10, turns sharp, or changes your stride.
+2. **The next morning:** back to normal — the first steps out of bed for the Achilles, the stairs for the knee. Not back to normal → easy day or rest.
+3. **Week to week:** morning stiffness shouldn't creep up. If it does, hold and see the PT.
+
+**The hold rule:** the long run steps up only if every morning that week was clean. Otherwise repeat last Monday's distance. Each repeat slides the ramp a week and takes about a mile off the peak — one repeat makes it 12. Never compress the ramp to catch up. The ramp protects the knee and the Achilles; the peak is just a number, and a run/walk finish in Honolulu doesn't depend on it.
+
+**Tell the PT about the Achilles.** If it keeps showing up, calf strengthening (heavy calf raises) is the best-supported treatment, and it fits into the strength work you're already doing.
+
+### Why the steps are the size they are
+
+A 2025 study of 5,205 runners (Frandsen et al., *British Journal of Sports Medicine*) found the injury rate rose when a single run was more than 10% longer than the longest run in the previous 30 days:
+
+| Longer than your 30-day longest by | Injury rate |
+|---|---|
+| Up to 10% | baseline |
+| 10–30% | 1.64× |
+| 30–100% | 1.52× |
+| More than double | 2.28× |
+
+Week-to-week mileage increases showed no link. The ramp has three steps over 10% — **Oct 19, Oct 26 and Nov 2**. From the Nov 9 cutback on, every step is under 10%. Those three Mondays are where the morning check matters most.
+
+### Taper
+
+The long run drops to 10 on Nov 30, then 5 on Dec 7, six days out. Saturday Dec 12 is a 3-mile easy shakeout — skip it if travel gets in the way.
+
+---
+
+## Knee revision — July–August 2026 (history)
+
+Your knee flared in early July, and the PT called for a pause from running to build leg strength. Weeks 4–10 became a cross-training block — rowing, then the indoor bike from Aug 12 — at the duration and easy effort (HR 140–150) of the runs they replaced, with PT strength work daily. The pause was extended twice, and the peak long run came down from 18 to 16. The walk/run return planned for late August never started: the next run was Oct 2, after the illness.
 
 ---
 
 ## The cross-training block (Weeks 4–10) — same effort, same time, no impact
+
+*History — the block is done. The bike-fit notes still apply to the Tuesday spin.*
 
 The idea, in your words: **same duration and heart-rate target, cross-training instead of running.** Each session mirrors the run it would have been:
 
@@ -119,24 +182,8 @@ The Aug 15 ride produced slight numbness in the **right index finger** and **rig
 **Keep the standing breaks.** Numb at 30 minutes continuous, clean at 60 with nothing longer than a 10-minute stretch in the saddle — the intermittent unloading is likely doing more of the work than the shorts. Don't drop it once things feel fine.
 
 Transient is fine. **Numbness that lingers for minutes or hours after the ride is not** — that means backing off and getting it looked at.
-- **No ratio to hit — just steady easy effort.** Don't replicate the 4:1 run/walk on the erg or the bike. Your walk breaks are a *running* tool (they manage impact and heat and rehearse race day); cross-training has no impact and isn't race-specific, so simply hold the 140–150 zone for the whole session. The only target is time in the zone. You'll get real run/walk practice back in Weeks 11–13.
+- **No ratio to hit — just steady easy effort.** Don't replicate the 4:1 run/walk on the erg or the bike. Your walk breaks are a *running* tool (they manage impact and heat and rehearse race day); cross-training has no impact and isn't race-specific, so simply hold the 140–150 zone for the whole session. The only target is time in the zone.
 - **PT leg-strength: every day.** This is the whole point of the pause — the strength work is the priority, the cardio keeps the engine warm.
-
-By the end of the block you'll have held nearly all of your aerobic fitness with zero running impact — the ideal setup to start running again. Extra weeks here cost almost nothing aerobically; they only delay the impact work, which is why the ramp below simply slides and the summit comes down.
-
----
-
-## Return to run (Weeks 11–13) — rebuild the impact tolerance
-
-The engine is fine; the tissues need to relearn running. So we ramp with walk/run, **starting the Monday after the PT clears you** (target: Mon Aug 24):
-
-- **Week 11:** run **1 min / walk 2 min**, short. ~2 mi feel on Mon/Wed, ~3 mi Saturday. Two easy 40 min spins (Tue/Thu) on the bike hold aerobic volume while running is minimal.
-- **Week 12:** run **2 min / walk 1 min**, a little longer. Two easy spins (Tue 35 / Thu 30 min), tapering as running grows.
-- **Week 13:** back to your usual **run 4′ / walk 1′** ratio (the same one you'll use every run and on race day), with a normal Saturday long run (~7 mi). One easy Tue spin (30 min) — cross-training settles into its ongoing rhythm.
-
-**If the pause runs longer still,** keep holding on the bike (40 / 40 / 90 min, or the erg for the long session while the saddle fit is unresolved) and slide the ramp again — never compress it. Each extra hold week comes off the summit instead: roughly **a mile of peak long run per week lost**, so a Week 11 hold means a 15 mi summit, and so on. That trade is always the right one. The ramp is what protects the knee; the summit number is just a number, and a run/walk finish in Honolulu doesn't depend on it.
-
-**The knee gates this.** Any sharp or lingering knee pain → stop, ice, and check with the PT before continuing the ramp. There is no rush; the race has no clock.
 
 ---
 
@@ -148,25 +195,13 @@ The engine is fine; the tissues need to relearn running. So we ramp with walk/ru
 
 ---
 
-## Optional marathon-effort segments (★ weeks)
-
-Three Wednesdays (marked ★) swap part of your easy run for a stretch at **marathon effort** — HR ~148–158, "comfortably hard but controlled." You could get out a short sentence, but you wouldn't want to chat. It sits one notch above easy. These are optional, but they teach your legs and head what race-day effort actually feels like. They now sit later in the plan, once running is fully re-established:
-
-- **Week 17 (Oct 10) — first taste:** 2 mi easy / **2 mi @ marathon effort** / 2 mi easy
-- **Week 20 (Oct 31) — build it:** 1.5 mi easy / **3 mi @ marathon effort** / 1.5 mi easy
-- **Week 22 (Nov 14) — final tune-up:** 1 mi easy / **4 mi @ marathon effort** / 1 mi easy — this one lands in a cutback week on purpose, so you're fresh for it and for the summit the following Saturday
-
-Run the effort stretch using your race-day run/walk ratio — that makes it the most race-specific rehearsal you can get. If you only do one or two, do the later ones. And skip them if the knee, foot, or fatigue says so; they're a confidence tool, not a requirement.
-
----
-
 ## The other days
 
-- **PT leg-strength: daily** through the cross-training block, then keep it going 2–3×/week once you're running again — it's what protects the knee for the rest of the build.
-- **Tuesday spin:** from Week 14 on, one **easy 30–40 min bike** (HR 140–150) is the ongoing complement — low-impact aerobic volume that spares the knee. Keep it genuinely easy so it doesn't eat into run recovery; drop it whenever you're tired or the long run needs the freshness.
-- **Thu / other days:** strength, yoga, or an optional second easy spin — your call, kept light.
-- **Friday:** rest or light yoga before Saturday's long session. Going in fresh matters more than an extra workout.
-- Skip or shorten cross-training the day before any long run from October on.
+- **PT leg-strength: 2–3× a week**, plus whatever the PT adds for the Achilles. It's what protects the knee for the rest of the build.
+- **Tuesday spin:** an **easy 30–40 min bike** (HR 140–150). The day after the long run, it doubles as recovery — low-impact volume that spares the knee. Optional: drop it whenever you're tired.
+- **Thursday:** strength, yoga, or an optional second easy spin — your call, kept light.
+- **Friday:** rest or light yoga.
+- **Sunday:** rest, so you go into Monday's long run fresh. No cross-training the day before a long run.
 
 ---
 
@@ -182,4 +217,5 @@ You'll train through a WA summer and fall — cooler and drier than race morning
 - Run/walk from mile 1, don't wait until you're tired.
 - HR ~148–158, run by effort as it heats up.
 - Cool aggressively: fluids, ice, sponges at every aid station.
+- Past mile 13 you're beyond your longest run — that's expected. Walk more before you have to, not after.
 - No clock pressure. Everyone finishes. Your only job is to keep moving.

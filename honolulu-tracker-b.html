@@ -313,15 +313,16 @@
     <p class="tagline">Effort over pace. Walk breaks welcome. The long run builds everything else — tap each session as you bank it.</p>
 
     <div class="injury">
-      <p class="it">🚴 Knee revision · cross-training · updated Aug 14 2026</p>
-      <p>PT called for a pause from running to build leg strength, and it's been <b>extended twice — Weeks 4–10 (Jul 11 – Aug 22)</b> are now <b>easy cross-training</b> at HR 140–150 with <b>PT leg-strength daily</b>. The <b>indoor bike arrived Aug 12</b> and leads from here; the erg is the anytime substitute. Weeks 11–13 are the <b>walk/run return-to-run ramp</b> once you're cleared, then the build runs to a <b>16 mi</b> summit — trimmed from 18 to keep the rebuild gradual after seven weeks off. From Week 14 a <b>Tuesday spin</b> stays in as low-impact complement volume. The knee gates the ramp — if it flares, ease off and check with the PT.</p>
+      <p class="it">🤒 Restart after illness · updated Oct 12 2026</p>
+      <p>About a month sick with <b>no running</b> — back since <b>Oct 2</b>. The long run moves to <b>Monday mornings</b> and builds to a <b>13 mi</b> peak on <b>Nov 23</b>, three weeks out. Wednesday is the <b>club trail run</b> — the week's one harder run — and Saturday stays <b>easy</b>. The ★ marathon-effort Wednesdays are dropped. <b>The knee and the Achilles gate every step:</b> if either isn't back to normal the next morning, repeat last Monday's distance instead of stepping up.</p>
     </div>
 
     <div class="guide">
       <span class="hr">Effort: <b>140–150</b> easy · <b>148–158</b> race <small>bpm (max ~185)</small></span>
-      <span class="chip" tabindex="0" data-tip="Almost every mile is conversational — HR ~140–150, capped near 150. Can't speak full sentences? Slow down or walk. Same effort gets faster on its own as your aerobic base builds over the months.">Easy means easy</span>
+      <span class="chip" tabindex="0" data-tip="Almost every mile is conversational — HR ~140–150, capped near 150. Can't speak full sentences? Slow down or walk. The Wednesday club run is the one exception. Same effort gets faster on its own as your aerobic base builds over the months.">Easy means easy</span>
+      <span class="chip" tabindex="0" data-tip="Knee and Achilles, every morning: back to normal? First steps out of bed for the Achilles, the stairs for the knee. During a run, stop and walk if pain passes 5 out of 10, turns sharp, or changes your stride. Step the Monday long run up only if every morning that week was clean — otherwise repeat last Monday's distance.">Morning check</span>
       <span class="chip" tabindex="0" data-tip="Practice a ratio from day one (e.g. run 4 min / walk 1 min) so it's automatic on race day. Walk breaks lower your heart rate and core temp — in Honolulu's heat they often make you faster overall, not slower.">Run / walk</span>
-      <span class="chip" tabindex="0" data-tip="Tue/Thu: weights, rowing, yoga — keep them genuinely easy so they don't eat into run recovery. Fri: rest or light yoga before Saturday's long run. From October on, skip or shorten cross-training the day before a long run.">Other days</span>
+      <span class="chip" tabindex="0" data-tip="Tue: easy 30–40 min spin, optional — it doubles as recovery after Monday's long run. Thu: PT strength, or an optional easy spin. Fri: rest or light yoga. Sun: rest — go into Monday's long run fresh.">Other days</span>
       <span class="chip" tabindex="0" data-tip="You train through a cool WA fall; race morning is warm. In the last 6–8 weeks, do a few runs slightly overdressed or on a treadmill in a warm room. Mostly: expect heat to slow you, and lean on walk breaks, fluids, and ice on race day.">Heat prep</span>
     </div>
 
@@ -344,7 +345,7 @@
       <span><i class="dot lit"></i> long run banked</span>
       <span><i class="dot todo"></i> still to come</span>
       <span><i class="dot rec"></i> cross-train / recovery</span>
-      <span><i class="star">★</i> marathon-effort Wednesday</span>
+      <span><i class="dot off"></i> no running (sick)</span>
     </div>
   </header>
 
@@ -369,7 +370,7 @@
   </div>
 
   <footer>
-    <b>Knee &amp; foot first:</b> this version pauses running (Weeks 4–10) on the PT's call, rebuilds with a walk/run ramp, and caps the long run at 16. If the knee or foot talks back, ease the ramp further and check with the PT/podiatrist before pushing on. The ★ Wednesdays are optional — drop them whenever you need to.
+    <b>Knee &amp; Achilles first:</b> the Monday long run steps up only after a week of clean mornings, and it peaks at 13. If the knee, Achilles or foot talks back, repeat the distance and check with the PT or podiatrist before pushing on. Race day is twice the longest run — fine with no cutoff: run/walk from the gun, and walk more past mile 13.
   </footer>
 </div>
 
@@ -385,22 +386,22 @@ const PLAN = [
   {w:8, iso:"2026-08-08", row:true, mon:30, wed:30, sat:60, phase:"cross", note:"Holding the block — not cleared to run yet."},
   {w:9, iso:"2026-08-15", row:true, modes:{wed:"bike",sat:"bike"}, mon:30, wed:30, sat:60, phase:"cross", note:"Full 60 as a ride, no groin numbness — the fit changes worked. Watch the hands and forefoot now."},
   {w:10,iso:"2026-08-22", row:true, mode:"bike", mon:40, wed:40, sat:75, phase:"cross", note:"Long ride back on the bike, stepping toward 90. Stand 30s every 8–10 min."},
-  {w:11,iso:"2026-08-29", rtr:true, mon:2, wed:2, sat:3,  phase:"rtr", xt:[{day:"tue",min:40,mode:"bike"},{day:"thu",min:40,mode:"bike"}], note:"Run days: run 1′ / walk 2′."},
-  {w:12,iso:"2026-09-05", rtr:true, mon:3, wed:3, sat:5,  phase:"rtr", xt:[{day:"tue",min:35,mode:"bike"},{day:"thu",min:30,mode:"bike"}], note:"Run days: run 2′ / walk 1′."},
-  {w:13,iso:"2026-09-12", rtr:true, mon:3, wed:4, sat:7,  phase:"rtr", xt:[{day:"tue",min:30,mode:"bike"}], note:"Run days: back to your usual run 4′ / walk 1′."},
-  {w:14,iso:"2026-09-19", mon:4, wed:5, sat:9,  phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:15,iso:"2026-09-26", mon:4, wed:6, sat:11, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:16,iso:"2026-10-03", mon:3, wed:5, sat:8,  phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
-  {w:17,iso:"2026-10-10", mon:4, wed:6, sat:12, phase:"build", mp:"2 mi at marathon effort — 2 easy / 2 MP / 2 easy", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:18,iso:"2026-10-17", mon:4, wed:6, sat:13, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:19,iso:"2026-10-24", mon:3, wed:5, sat:10, phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
-  {w:20,iso:"2026-10-31", mon:4, wed:6, sat:14, phase:"peak", mp:"3 mi at marathon effort — 1.5 easy / 3 MP / 1.5 easy", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:21,iso:"2026-11-07", mon:4, wed:6, sat:15, phase:"peak", xt:[{day:"tue",min:40,mode:"bike"}]},
-  {w:22,iso:"2026-11-14", mon:3, wed:6, sat:11, phase:"cut", mp:"4 mi at marathon effort — 1 easy / 4 MP / 1 easy", xt:[{day:"tue",min:30,mode:"bike"}]},
-  {w:23,iso:"2026-11-21", mon:4, wed:5, sat:16, phase:"summit"},
-  {w:24,iso:"2026-11-28", mon:3, wed:5, sat:12, phase:"taper"},
-  {w:25,iso:"2026-12-05", mon:3, wed:4, sat:9,  phase:"taper"},
-  {w:26,iso:"2026-12-12", mon:3, wed:3, sat:4,  phase:"taper", shake:true},
+  {w:11,iso:"2026-08-29", phase:"off", note:"No running until Oct 2 — about a month of it sick, walking 1–2 mi a day."},
+  {w:12,iso:"2026-09-05", phase:"off"},
+  {w:13,iso:"2026-09-12", phase:"off"},
+  {w:14,iso:"2026-09-19", phase:"off"},
+  {w:15,iso:"2026-09-26", phase:"off"},
+  {w:16,iso:"2026-10-03", fri:2.63, sun:3.15, phase:"rtr", note:"Back running after the illness."},
+  {w:17,iso:"2026-10-10", thu:2.81, fri:3.54, phase:"rtr"},
+  {w:18,iso:"2026-10-17", long:"mon", mon:5.44, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}], note:"The long run moves to Monday. Monday's 5.44 was a big jump and the Achilles complained — run Wednesday only if the morning check is clean, and keep it easy this week."},
+  {w:19,iso:"2026-10-24", long:"mon", mon:7,  wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}], note:"Step up to 7 only if every morning last week was clean. Otherwise repeat 5.5 — and the peak becomes 12."},
+  {w:20,iso:"2026-10-31", long:"mon", mon:9,  wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:21,iso:"2026-11-07", long:"mon", mon:11, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"build", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:22,iso:"2026-11-14", long:"mon", mon:8,  wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"cut", xt:[{day:"tue",min:30,mode:"bike"}]},
+  {w:23,iso:"2026-11-21", long:"mon", mon:12, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"peak", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:24,iso:"2026-11-28", long:"mon", mon:13, wed:[3,4], sat:[3,4], sub:{wed:"club",sat:"easy"}, phase:"summit", xt:[{day:"tue",min:40,mode:"bike"}]},
+  {w:25,iso:"2026-12-05", long:"mon", mon:10, wed:3, sat:3, sub:{wed:"easy",sat:"easy"}, phase:"taper", xt:[{day:"tue",min:30,mode:"bike"}]},
+  {w:26,iso:"2026-12-12", long:"mon", mon:5,  wed:3, sat:3, sub:{wed:"easy"}, phase:"taper", shake:true},
 ];
 const RACE_MILES = 26.2;
 const PHASE_LABEL = {base:"Base",build:"Build",peak:"Peak build",cut:"Recovery",taper:"Taper",summit:"Summit",cross:"Cross-train",rtr:"Return to run",off:"Off"};
