@@ -9,7 +9,7 @@
 
 ## ⚠️ Restart after illness — October 2026 (updated Oct 12)
 
-After the cross-training block you were sick for about a month: no running, walks of 1–2 miles a day. Running restarted **Oct 2**. This version of the plan rebuilds from there:
+Running resumed after the cross-training block — 2.5 miles on Aug 24 and 3 on Sep 5 — and then you were sick for about a month: no running, walks of 1–2 miles a day. Running restarted **Oct 2**. This version of the plan rebuilds from there:
 
 - **The long run moves to Monday mornings,** before work. Wednesday and often Saturday are club runs with your son, so Monday is the day that's reliably yours.
 - **The long run peaks at 13 miles on Mon Nov 23,** three weeks out. That's the existing ramp, slid five weeks to start where you are now, under the standing rule: slide the ramp, never compress it, and take the cost off the peak.
@@ -77,7 +77,9 @@ Peak week (Week 24) is ~20 miles. That's lean on purpose: three runs a week, wit
 | 8 | Aug 8 | 30 min row ✓ | 30 min row ✓ | **60 min long row** | 🚣 Cross-train (hold) |
 | 9 | Aug 15 | 30 min row | 30 min ride ✓ | **60 min long ride ✓** | 🚴 Cross-train (hold) |
 | 10 | Aug 22 | 40 min ride | 40 min ride | **75 min long ride** | 🚴 Cross-train (hold) |
-| 11–15 | Aug 29 – Sep 26 | — | — | — | 🤒 No running — about a month sick |
+| 11 | Aug 29 | 2.5 ✓ | — | — | ↩ Return to run |
+| 12 | Sep 5 | — | — | **3 ✓** | ↩ Return to run |
+| 13–15 | Sep 12 – Sep 26 | — | — | — | 🤒 No running — about a month sick |
 | 16–17 | Oct 3 – Oct 10 | — | — | — | ↩ Restart — see the restart log above |
 
 ---
@@ -130,7 +132,7 @@ The long run drops to 10 on Nov 30, then 5 on Dec 7, six days out. Saturday Dec 
 
 ## Knee revision — July–August 2026 (history)
 
-Your knee flared in early July, and the PT called for a pause from running to build leg strength. Weeks 4–10 became a cross-training block — rowing, then the indoor bike from Aug 12 — at the duration and easy effort (HR 140–150) of the runs they replaced, with PT strength work daily. The pause was extended twice, and the peak long run came down from 18 to 16. The walk/run return planned for late August never started: the next run was Oct 2, after the illness.
+Your knee flared in early July, and the PT called for a pause from running to build leg strength. Weeks 4–10 became a cross-training block — rowing, then the indoor bike from Aug 12 — at the duration and easy effort (HR 140–150) of the runs they replaced, with PT strength work daily. The pause was extended twice, and the peak long run came down from 18 to 16. Running resumed on Aug 24 (2.5 mi) and Sep 5 (3 mi), and then about a month of illness stopped it.
 
 ---
 
