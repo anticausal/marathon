@@ -12,11 +12,11 @@
 Running resumed after the cross-training block — 2.5 miles on Aug 24 and 3 on Sep 5 — and then you were sick for about a month: no running, walks of 1–2 miles a day. Running restarted **Oct 2**. This version of the plan rebuilds from there:
 
 - **The long run moves to Monday mornings,** before work. Wednesday and often Saturday are club runs with your son, so Monday is the day that's reliably yours.
-- **The long run peaks at 13 miles on Mon Nov 23,** three weeks out. That's the existing ramp, slid five weeks to start where you are now, under the standing rule: slide the ramp, never compress it, and take the cost off the peak.
+- **The long run peaks at 15 miles on Mon Nov 23,** three weeks out. The existing ramp slid five weeks would have peaked at 13; on Oct 19 Brandon chose to drop the Nov 9 cutback and climb to 15 instead (option 1c-A — see *The peak decision* below).
 - **Wednesday and Saturday are the club trail runs** — 3–4 miles each, usually a harder effort — and they're the week's two harder runs. The Monday long run stays easy, and Sunday is full rest between a hard Saturday and the long run.
 - **The ★ marathon-effort Wednesdays are dropped.** The club runs already supply the harder efforts, and a no-clock finish doesn't need them.
 - **The knee and the Achilles gate every step.** The Oct 12 run brought some Achilles soreness during the run. *The morning check* below decides each Monday whether the long run steps up or repeats.
-- **Race day is twice the longest run.** That's fine with no cutoff: run/walk from the gun, and plan on walking more past mile 13.
+- **Race day is 1.75× the longest run.** That's fine with no cutoff: run/walk from the gun, and plan on walking more past mile 15.
 
 ### Restart log
 
@@ -36,11 +36,11 @@ Running resumed after the cross-training block — 2.5 miles on Aug 24 and 3 on 
 
 2. **Run/walk from the start.** Practice a ratio in training (run 4 min / walk 1 min) so it's automatic on race day. Walk breaks lower your heart rate and core temp — in Honolulu's heat they often make you *faster* overall, not slower. Every Monday long run is 4′/1′.
 
-3. **Cutback weeks are training, not slacking.** The long run drops back in Week 22 so your body absorbs the work. Don't skip it — it's where you actually get stronger and where injuries get avoided.
+3. **Cutback weeks are training, not slacking.** This plan has none before the peak — the Nov 9 cutback was traded for a 15-mile peak. So a repeat Monday (see *The hold rule*) is your cutback: take it the moment the morning check says so, without guilt.
 
 4. **The long run is the priority.** Wednesday and Saturday are support runs. If you're tired, shorten or skip those before you touch Monday.
 
-5. **The knee and the Achilles gate the ramp.** The long run steps up only after a week of clean mornings — see *The morning check*. If the knee, the Achilles or the foot talks back, repeat the distance and check with the PT or podiatrist. Capping your longest run at **13** is already baked in, and going even shorter is fine for finishing.
+5. **The knee and the Achilles gate the ramp.** The long run steps up only after a week of clean mornings — see *The morning check*. If the knee, the Achilles or the foot talks back, repeat the distance and check with the PT or podiatrist. Capping your longest run at **15** is already baked in, and going even shorter is fine for finishing.
 
 ---
 
@@ -54,14 +54,14 @@ Running resumed after the cross-training block — 2.5 miles on Aug 24 and 3 on 
 | 19 | Oct 19 | **7** | 3–4 club | 3–4 club | Build |
 | 20 | Oct 26 | **9** | 3–4 club | 3–4 club | Build |
 | 21 | Nov 2 | **11** | 3–4 club | 3–4 club | Build |
-| 22 | Nov 9 | **8** | 3–4 club | 3–4 club | ↓ Cutback |
-| 23 | Nov 16 | **12** | 3–4 club | 3–4 club | Peak build |
-| 24 | Nov 23 | **13** | 3–4 club | 3–4 club | **PEAK — longest run** |
+| 22 | Nov 9 | **12** | 3–4 club | 3–4 club | Build |
+| 23 | Nov 16 | **13.5** | 3–4 club | 3–4 club | Peak build |
+| 24 | Nov 23 | **15** | 3–4 club | 3–4 club | **PEAK — longest run** |
 | 25 | Nov 30 | **10** | 3–4 club | 3–4 club | Taper |
 | 26 | Dec 7 | **5** | 3 easy | 3 easy shakeout (Dec 12) | Race week |
 | — | **Sun Dec 13** | **RACE — 26.2** | — | — | 🏁 |
 
-Peak week (Week 24) is ~20 miles. That's lean on purpose: three runs a week, with the long run carrying the specificity and the low total volume protecting the knee and the Achilles.
+Peak week (Week 24) is ~22 miles. That's lean on purpose: three runs a week, with the long run carrying the specificity and the low total volume protecting the knee and the Achilles.
 
 ### Weeks 1–17: what happened
 
@@ -107,7 +107,7 @@ Adapted from the pain-monitoring approach used in Achilles rehab (Silbernagel et
 2. **The next morning:** back to normal — the first steps out of bed for the Achilles, the stairs for the knee. Not back to normal → easy day or rest.
 3. **Week to week:** morning stiffness shouldn't creep up. If it does, hold and see the PT.
 
-**The hold rule:** the long run steps up only if every morning that week was clean. Otherwise repeat last Monday's distance. Each repeat slides the ramp a week and takes about a mile off the peak — one repeat makes it 12. Never compress the ramp to catch up. The ramp protects the knee and the Achilles; the peak is just a number, and a run/walk finish in Honolulu doesn't depend on it.
+**The hold rule:** the long run steps up only if every morning that week was clean. Otherwise repeat last Monday's distance. Each repeat slides the ramp a week and takes about a mile off the peak — one repeat makes it 13.5. Don't compress the ramp further to catch up. The ramp protects the knee and the Achilles; the peak is just a number, and a run/walk finish in Honolulu doesn't depend on it.
 
 **Tell the PT about the Achilles.** If it keeps showing up, calf strengthening (heavy calf raises) is the best-supported treatment, and it fits into the strength work you're already doing.
 
@@ -122,17 +122,15 @@ A 2025 study of 5,205 runners (Frandsen et al., *British Journal of Sports Medic
 | 30–100% | 1.52× |
 | More than double | 2.28× |
 
-Week-to-week mileage increases showed no link. The ramp has three steps over 10% — **Oct 19, Oct 26 and Nov 2**. From the Nov 9 cutback on, every step is under 10%. Those three Mondays are where the morning check matters most.
+Week-to-week mileage increases showed no link. The ramp has five steps over 10%: **Oct 19 (+29%), Oct 26 (+29%), Nov 2 (+22%), Nov 16 (+12%) and Nov 23 (+11%)**. Nov 9 (+9%) is under. Those five Mondays are where the morning check matters most — and the last two land with no recovery week behind them.
 
-### Open decision — is 13 enough? (decide by Mon Nov 9)
+### The peak decision — decided Oct 19: 1c-A, 15 on Nov 23
 
-Raised Oct 19: a 13-mile peak is half the race, and confidence matters. Brandon wants to see how the next few weeks feel before choosing. If nothing is chosen, the plan stays as written (1b). Labels match the Oct 19 discussion.
+Raised Oct 19: a 13-mile peak is half the race, and confidence matters. Options were 1a (keep 13, add walk-on finishes), 1b (keep 13 as written) and 1c (drop the Nov 9 cutback and climb higher). Brandon chose **1c-A**: Nov 9 12, Nov 16 13.5, Nov 23 15, then the same taper — "if it doesn't work out we can modify it again later". It bends the slide-don't-compress rule, which he says needn't be strict.
 
-- **1c — Raise the running peak to 15 by dropping the Nov 9 cutback.** Brandon is tempted; it bends the slide-don't-compress rule, which he says needn't be strict. **Must be decided by Mon Nov 9** — once that's run as an 8 the window is gone. Exact steps to be laid out if chosen, keeping each one as small as the calendar allows.
-- **1b — Keep the plan as written:** 13 peak; confidence comes from the race-day approach — run/walk from the gun, no cutoff, walk more past 13.
-- **1a — Walk-on finishes (recommended):** run 12 + walk 2 on Nov 16, run 13 + walk 3 on Nov 23 (16 miles, ~3½+ hours on feet) — rehearses time on feet and fueling with less running load. Can be decided as late as Nov 16.
+Shapes considered and not chosen: 1c-B (12, 13, 14 — every step under 10%) and 1c-C (15 on Nov 30, two-week taper).
 
-What to judge it by: how the 11-miler on Nov 2 felt (finished with more in the tank?), and whether the knee and Achilles passed the morning check through the three big steps (Oct 19, Oct 26, Nov 2). Clean mornings make 1c a reasonable bet; a grumbling Achilles makes it the option most likely to cost the start line.
+If it isn't working — the morning check failing, or the 11 on Nov 2 feeling like too much — fall back by repeating a Monday (the hold rule), or switch to 1c-B by capping Nov 16 at 13 and Nov 23 at 14.
 
 ### Taper
 
@@ -229,5 +227,5 @@ You'll train through a WA summer and fall — cooler and drier than race morning
 - Run/walk from mile 1, don't wait until you're tired.
 - HR ~148–158, run by effort as it heats up.
 - Cool aggressively: fluids, ice, sponges at every aid station.
-- Past mile 13 you're beyond your longest run — that's expected. Walk more before you have to, not after.
+- Past mile 15 you're beyond your longest run — that's expected. Walk more before you have to, not after.
 - No clock pressure. Everyone finishes. Your only job is to keep moving.
