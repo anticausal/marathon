@@ -200,7 +200,7 @@ Transient is fine. **Numbness that lingers for minutes or hours after the ride i
 ## The other days
 
 - **PT leg-strength: 2–3× a week**, plus whatever the PT adds for the Achilles. It's what protects the knee for the rest of the build.
-- **Tuesday spin:** an **easy 30–40 min bike** (HR 140–150). The day after the long run, it doubles as recovery — low-impact volume that spares the knee. Optional: drop it whenever you're tired.
+- **Tuesday spin:** a **30–40 min recovery ride, HR under 130** (about 115–130) — light resistance, cadence 85–95, easy enough to hold a full conversation. It is *not* the 140–150 running zone: cycling HR runs ~5–10 bpm lower for the same effort, so 140–150 on the bike is a moderate session. The day after the long run it loosens the legs with no impact on the knee. Optional: drop it whenever you're tired. Want a real aerobic ride at 140–150? Do it Thursday instead, never the day after the long run.
 - **Thursday:** strength, yoga, or an optional second easy spin — your call, kept light.
 - **Friday:** rest or light yoga.
 - **Sunday:** rest, so you go into Monday's long run fresh. No cross-training the day before a long run.
