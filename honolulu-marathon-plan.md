@@ -124,6 +124,16 @@ A 2025 study of 5,205 runners (Frandsen et al., *British Journal of Sports Medic
 
 Week-to-week mileage increases showed no link. The ramp has three steps over 10% — **Oct 19, Oct 26 and Nov 2**. From the Nov 9 cutback on, every step is under 10%. Those three Mondays are where the morning check matters most.
 
+### Open decision — is 13 enough? (decide by Mon Nov 9)
+
+Raised Oct 19: a 13-mile peak is half the race, and confidence matters. Brandon wants to see how the next few weeks feel before choosing. If nothing is chosen, the plan stays as written (1b). Labels match the Oct 19 discussion.
+
+- **1c — Raise the running peak to 15 by dropping the Nov 9 cutback.** Brandon is tempted; it bends the slide-don't-compress rule, which he says needn't be strict. **Must be decided by Mon Nov 9** — once that's run as an 8 the window is gone. Exact steps to be laid out if chosen, keeping each one as small as the calendar allows.
+- **1b — Keep the plan as written:** 13 peak; confidence comes from the race-day approach — run/walk from the gun, no cutoff, walk more past 13.
+- **1a — Walk-on finishes (recommended):** run 12 + walk 2 on Nov 16, run 13 + walk 3 on Nov 23 (16 miles, ~3½+ hours on feet) — rehearses time on feet and fueling with less running load. Can be decided as late as Nov 16.
+
+What to judge it by: how the 11-miler on Nov 2 felt (finished with more in the tank?), and whether the knee and Achilles passed the morning check through the three big steps (Oct 19, Oct 26, Nov 2). Clean mornings make 1c a reasonable bet; a grumbling Achilles makes it the option most likely to cost the start line.
+
 ### Taper
 
 The long run drops to 10 on Nov 30, then 5 on Dec 7, six days out. Race week is easy only: Wednesday Dec 9 is an easy 3, and Saturday Dec 12 a 3-mile easy shakeout — skip it if travel gets in the way.
